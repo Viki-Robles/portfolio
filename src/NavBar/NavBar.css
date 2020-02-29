@@ -2,7 +2,7 @@
     position:fixed;
     height: 15vh;
     width:100vw;
-    background:greenyellow;
+    background:white;
     display:flex;
     flex-direction: row-reverse;
     align-items: center;
@@ -16,3 +16,21 @@
     padding-right: 30px;
 
 }
+
+.burgerButton{
+    background:none;
+    border:none;
+    outline:none;
+}
+
+.navMenu {
+    position:fixed;
+    height:85vh;
+    width:100vw;
+    background:yellow;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+    z-index:2;
+}
+

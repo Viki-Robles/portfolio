@@ -27,10 +27,14 @@
     position:fixed;
     height:85vh;
     width:100vw;
-    background:yellow;
     display:flex;
     flex-direction:column;
     justify-content:space-evenly;
-    z-index:2;
+    z-index:2;  
 }
 
+.menuItem a {
+    font-size:3em;
+    font-weight:600;
+    text-decoration:none;
+}

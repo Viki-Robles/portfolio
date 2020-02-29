@@ -1,0 +1,18 @@
+.myNav {
+    position:fixed;
+    height: 15vh;
+    width:100vw;
+    background:greenyellow;
+    display:flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    top:0;
+}
+
+.burger{
+    width:50px;
+    height:50px;
+    padding:5px;
+    padding-right: 30px;
+
+}

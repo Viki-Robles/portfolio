@@ -43,3 +43,32 @@
 #menuDisplayoff {
     display: none;
 }
+
+@media(min-width:600px) {
+    .burgerButton {
+        display: none;
+    }
+
+    .myNav {
+        display: none;
+        
+    }
+    
+    #menuDisplayoff {
+        display: none;
+    }
+
+    .navMenu {
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: row;
+        position: fixed;
+    }
+
+    .menuItem a {
+        padding:10px;
+        font-size:20px;
+    }
+
+}
+

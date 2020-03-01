@@ -7,9 +7,12 @@ function App() {
   return (
     <div className="App">
       <header>Rubie</header>
-      <NavBar/>
+     <NavBar/>
     </div>
   );
 }
 
 export default App;
+
+/*import NavBar from './NavBar/NavBar';
+*/

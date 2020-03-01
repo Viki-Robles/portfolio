@@ -12,7 +12,9 @@ export default function NavBar() {
 
     return (
         <div>
+            
             <nav className="myNav">
+            
                 <button className="burgerButton" onClick={() => toggleMenu()}>
                     <img className="burger" src={hamburger} alt="hamburger" />
                 </button>
@@ -24,6 +26,7 @@ export default function NavBar() {
                 <h4 className="menuItem"><a href="/contact" onClick={() => toggleMenu()}>contact</a></h4>
             </main>
         </div>
+      
     );
 }
 

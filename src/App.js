@@ -6,10 +6,12 @@ import NavBar from './NavBar/NavBar';
 function App() {
   return (
     <div className="App">
-      <div className="header">
+    
+    <div className="header">
         Rubie
       </div>
      <NavBar/>
+     
     </div>
   );
 }

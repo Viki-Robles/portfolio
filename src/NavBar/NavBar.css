@@ -1,4 +1,4 @@
-.header{
+.header {
     color: black;
     position: absolute;
     margin: 22px;
@@ -17,15 +17,17 @@
     top:0;
 }
 
-.burger{
+.burger {
     width:50px;
     height:50px;
-    padding:5px;
-    padding-right: 30px;
+    padding-left:150%;
+    
    
 }
 
-.burgerButton{
+
+
+.burgerButton {
     background:none;
     border:none;
     outline:none;

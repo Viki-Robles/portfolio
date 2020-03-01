@@ -10,18 +10,18 @@
 
 .kodflix_image {
     max-width: 500px;
-    
-      
+    border:1px solid black;
+    border-radius:6px;     
 }
 
 
-/*
 
+/*Mobile Version*/
 @media(max-width:600px) {
     .portfolio_name {
-        text-align: center;
         padding-bottom:40px;
         padding-top:40px;
+        margin-left: 38%;
         
     }
     
@@ -29,5 +29,7 @@
         max-width: 500px;
           
     }
+
+    
 }
-*/
+

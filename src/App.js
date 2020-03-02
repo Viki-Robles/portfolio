@@ -1,7 +1,9 @@
 import React from 'react';
 import './App.css';
 import NavBar from './NavBar/NavBar';
-import MainMenu from './MainMenu/MainMenu';
+import Gallery from './Container/Gallery';
+
+
 
 
 function App() {
@@ -12,7 +14,10 @@ function App() {
         Rubie
       </div>
       <NavBar />
-      <MainMenu/>
+      <div className="portfolio_name">PORTFOLIO</div>
+     <Gallery/>
+      
+      
     </div>
 
   );

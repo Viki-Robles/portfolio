@@ -31,6 +31,7 @@
     background:none;
     border:none;
     outline:none;
+    z-index:2;
     
 }
 
@@ -41,7 +42,7 @@
     flex-direction:column;
     justify-content:space-evenly;
     text-align: center;
-    z-index:2;
+    z-index:1;
     background:linear-gradient(to bottom,#7a19f1,#332179);
     top:0;
   
@@ -61,15 +62,18 @@
 @media(min-width:600px) {
     .burgerButton {
         display: none;
+        
     }
 
     .myNav {
         display: none;
         
+        
     }
     
     #menuDisplayoff {
         display:flex;
+        
     }
 
     .navMenu {
@@ -79,6 +83,10 @@
         background:linear-gradient(to bottom,#7a19f1,#332179);
         padding:0;
         top:0;
+        width:100%;
+        margin:0;
+        
+        
         
     }
 
@@ -95,6 +103,7 @@
     font-size: 30px;
     font-weight: 800;
     font-family:"Roboto";
+    
         
         
     }

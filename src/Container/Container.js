@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Link } from 'react';
 import './Container.css';
 
 
@@ -17,7 +17,8 @@ export default function Container(props) {
             <div className="box">
                 <img src={props.logo} alt={`${props.name} logo`} className="item" />         
                 <h3>{props.name}</h3>
-                <button><a>Visit Site</a></button>
+                <button>
+                    <a href="https://kodflix-vicki.herokuapp.com/">Visit Site</a></button>
             </div>
         </>
     );

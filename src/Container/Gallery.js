@@ -9,7 +9,8 @@ export default function Gallery() {
             galleryGet().map(card => <Container key={card.id}
                 id={card.id}
                 name={card.name}
-                logo={card.logo} />
+                logo={card.logo} 
+                linkId={card.linkId}/>
             )
         }
 

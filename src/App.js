@@ -15,7 +15,10 @@ function App() {
       </div>
       <NavBar />
       <div className="portfolio_name">PORTFOLIO</div>
+      
      <Gallery/>
+     <br/>
+     <hr/>
      <br/>
      <br/>
 

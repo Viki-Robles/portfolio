@@ -13,8 +13,9 @@ import './Container.css';
 export default function Container(props) {
     return (
         <>
+        <hr></hr>
             <div className="box">
-                <img src={props.logo} alt={`${props.name} logo`} className="item" />
+                <img src={props.logo} alt={`${props.name} logo`} className="item" />         
                 <h3>{props.name}</h3>
                 <button>Visit Site</button>
             </div>

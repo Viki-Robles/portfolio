@@ -13,8 +13,10 @@ import './Container.css';
 export default function Container(props) {
     return (
         <>
-    <img src={props.logo} alt={`${props.name} logo`} className="item"/>
-    <h4>{props.name}</h4>       
+            <div className="box">
+                <img src={props.logo} alt={`${props.name} logo`} className="item" />
+                <h4>{props.name}</h4>
+            </div>
         </>
     );
 

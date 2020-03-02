@@ -5,6 +5,7 @@
     font-size: 30px;
     font-weight: 800;
     font-family:"Roboto";
+    line-height: 1.5;
 }
 
 .myNav {
@@ -45,6 +46,7 @@
     z-index:1;
     background:linear-gradient(to bottom,#7a19f1,#332179);
     top:0;
+    
   
 }
 

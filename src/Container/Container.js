@@ -17,7 +17,7 @@ export default function Container(props) {
             <div className="box">
                 <img src={props.logo} alt={`${props.name} logo`} className="item" />         
                 <h3>{props.name}</h3>
-                <button>Visit Site</button>
+                <button><a>Visit Site</a></button>
             </div>
         </>
     );

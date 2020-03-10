@@ -20,6 +20,11 @@ export default function Container(props) {
                 <button>
                     <a href="https://kodflix-vicki.herokuapp.com/">Visit Site</a></button>
             </div>
+            <div className="details">
+                <div className="details_item">
+                    <p>{props.details}</p>
+                </div>
+            </div>
         </>
     );
 

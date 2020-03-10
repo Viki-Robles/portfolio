@@ -21,7 +21,7 @@
 .burger {
     width:50px;
     height:50px;
-    padding-left:150%;
+    
     
    
 }
@@ -37,7 +37,8 @@
 }
 
 .navMenu {
-    height:85vh;
+    position:absolute;
+    height:100vh;
     width:100vw;
     display:flex;
     flex-direction:column;
@@ -79,6 +80,7 @@
     }
 
     .navMenu {
+        position: relative;
         display: flex;
         justify-content: flex-end;
         flex-direction: row;
@@ -119,4 +121,19 @@
 #menuDisplayoff {
     display: none;
 }
+
+
+.navMenu {
+    position:absolute;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    z-index: 1;
+    background: linear-gradient(to bottom,#7a19f1,#332179);
+    top: 0;
+}
+
 */

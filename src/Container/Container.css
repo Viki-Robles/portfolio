@@ -1,6 +1,5 @@
 .container {
     display: flex;
-    
     margin: 0;
     grid-gap: 10px;
     flex-direction: column;
@@ -15,25 +14,32 @@ button {
     background-color: white;
     font-size:1rem;
     font-weight: 400;
-    
-    
-    }
+       
+}
 
-    button a {
-        text-decoration: none;
-    }
-    .box h3 {
+.burger {
+    width: 50px;
+    height: 50px;
+}
+
+button a {
+
+    text-decoration: none;
+    
+}
+
+.box h3 {
+
         padding-top:20px;
         padding-bottom:10px;
         color:black;
         font-weight: 600;
         font-size: calc(20px + 8 * ((100vw - 576px)/(1200)))
        
-        
-       
-    }
+}
 
-    .portfolio_name {
+.portfolio_name {
+
         text-align: center;
         padding-bottom:40px;
         padding-top:60px;
@@ -44,8 +50,8 @@ button {
         
     }
 
-    .item {
-        width:100%;
+.item {
+        width:80%;
         height:60vh;
         border-radius: 4px;
 
@@ -54,6 +60,27 @@ button {
 .box {
     padding-top:20px;
 }
+
+.navMenu {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    z-index: 1;
+    background: linear-gradient(to bottom,#7a19f1,#332179);
+    top: 0;
+}
+
+.header {
+    z-index:2;
+}
+
+
+
+
 
 @media(min-width:600px) {
 

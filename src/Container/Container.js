@@ -18,7 +18,7 @@ export default function Container(props) {
                 <img src={props.logo} alt={`${props.name} logo`} className="item" />         
                 <h3>{props.name}</h3>
                 <button>
-                    <a href="https://kodflix-vicki.herokuapp.com/">Visit Site</a></button>
+                    <a href="#">Visit Site</a></button>
             </div>
             <div className="details">
                 <div className="details_item">

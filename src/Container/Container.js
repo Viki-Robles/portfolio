@@ -14,6 +14,7 @@ export default function Container(props) {
     return (
         <>
         <hr></hr>
+        <div className="Card">
             <div className="box">
                 <img src={props.logo} alt={`${props.name} logo`} className="item" />         
                 <h3>{props.name}</h3>
@@ -25,6 +26,7 @@ export default function Container(props) {
                     <p>{props.details}</p>
                 </div>
             </div>
+        </div>
         </>
     );
 

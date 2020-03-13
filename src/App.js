@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import NavBar from './NavBar/NavBar';
 import Gallery from './Container/Gallery';
+import GetPricing from './CardServices/getPricing';
 
 
 
@@ -22,7 +23,7 @@ function App() {
      <br/>
 
      <div className="Services">SERVICES</div>
-
+    <GetPricing/>
       
       
     </div>

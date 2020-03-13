@@ -1,0 +1,13 @@
+.pricing {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    justify-content:center;
+}
+
+.pricingBox {
+    border:solid 2px purple;
+    height:50vh;
+    flex:1;
+    padding:5px;
+}

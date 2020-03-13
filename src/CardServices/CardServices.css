@@ -9,10 +9,15 @@
     border:solid 2px white;
     height:50vh;
     flex:1;
-    padding:5px;
+    box-sizing: border-box;
+    
+    
 }
 
 .servicesBox {
-    border:solid 2px black;
+    border:solid 2px #332179;
     height:50vh;
+    
+    
+    
 }

@@ -6,8 +6,13 @@
 }
 
 .pricingBox {
-    border:solid 2px purple;
+    border:solid 2px white;
     height:50vh;
     flex:1;
     padding:5px;
+}
+
+.servicesBox {
+    border:solid 2px black;
+    height:50vh;
 }

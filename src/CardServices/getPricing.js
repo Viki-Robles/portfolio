@@ -15,6 +15,7 @@ export default function GetPricing() {
                     id={price.id}
                     pricingBox={price.pricingBox}
                     h2={price.titlePricing}
+                    pricingFeauture={price.pricingFeauture}
                 />)
             }
             </div>

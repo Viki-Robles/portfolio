@@ -22,10 +22,10 @@ function App() {
       <br />
       <br />
 
-      <div className="Services">SERVICES</div>
+      <div className="Services">SERVICES
       <GetPricing />
-
-
+      </div>
+      <div className="ContactForm">CONTACT FORM</div>
     </div>
 
   );

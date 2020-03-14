@@ -7,7 +7,7 @@ export default function CardServices(props) {
             <div className="pricingBox">{props.pricingBox}
                 <div className="servicesBox">
                     <h2>{props.titlePricing}</h2>
-                    <div className="">{props.detailsPricing}</div>
+                    <p className="pricingFeauture">{props.pricingFeauture}</p>
                 </div>
             </div>
         </>

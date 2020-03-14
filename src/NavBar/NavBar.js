@@ -1,5 +1,5 @@
 import React from 'react';
-import hamburger from '../images/hamburger.png';
+import hamburger from '../images/menuicon.svg';
 import './NavBar.css';
 
 

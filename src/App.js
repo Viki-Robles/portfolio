@@ -25,7 +25,7 @@ function App() {
       <div className="Services">SERVICES
       <GetPricing />
       </div>
-      <div className="ContactForm">CONTACT FORM</div>
+      <div className="ContactForm">Get In Touch</div>
     </div>
 
   );

@@ -77,7 +77,7 @@ button a {
         color:#a9a9a9;
         font-size:16px;
         letter-spacing: 2px;
-        background-color: #332179;
+        background: linear-gradient(to bottom,#7a19f1,#332179);
 
     }
     .portfolio_name {

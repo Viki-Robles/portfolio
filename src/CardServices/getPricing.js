@@ -2,9 +2,6 @@ import React from 'react';
 import getCards from './getCards';
 import CardsServices from './CardServices';
 
-
-
-
 export default function GetPricing() {
     return (
         <div>
@@ -16,6 +13,7 @@ export default function GetPricing() {
                     pricingBox={price.pricingBox}
                     h2={price.titlePricing}
                     pricingFeauture={price.pricingFeauture}
+                    icon={price.icon}
                 />)
             }
             </div>

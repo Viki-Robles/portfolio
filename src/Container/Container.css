@@ -64,15 +64,10 @@ button a {
     z-index:2;
 }
 
-
-
-
-
 @media(min-width:600px) {
 
     .Services {
         text-align: center;
-        padding-bottom:40px;
         padding-top:50px;
         color:#a9a9a9;
         font-size:16px;

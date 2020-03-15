@@ -6,7 +6,7 @@
         transition: margin 0.6s;
     }
     .pricingBox:hover {
-        margin:-15px;
+        margin:-10px;
     }
 
     .pricing {
@@ -33,6 +33,7 @@
         justify-content: space-evenly;
         width:50%;
         font-weight: bold;
+        margin:23%;
     }
     
     .icon {

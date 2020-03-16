@@ -12,7 +12,7 @@ export default class HomeButton extends Component {
     render () {
         return (
             <div>
-                <button>Home</button>
+                <button className="button">Home</button>
             </div>
         );
     }

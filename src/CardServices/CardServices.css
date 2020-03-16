@@ -62,12 +62,12 @@
         border:1px solid #eee;
         border-radius:4px;
         padding:10px;
-        background-color:transparent ease 1s;
+        background-color:transparent;
         justify-content: space-evenly;
         width:50%;
         font-weight: bold;
         margin:23%;
-        transition-delay: background-color 0.5s ease-in-out;
+        transition: background-color 1s ease;
         
     }
 

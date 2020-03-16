@@ -17,8 +17,7 @@
         
 }
 
-button {
-    
+.button {
     padding: 12px 30px;
     border-radius: 30px;
     border-color:#5b43d6;
@@ -28,7 +27,16 @@ button {
        
 }
 
-button a {
+.button:hover {
+    background-color:#5b43d6;
+    color:white;
+}
+
+.button a:hover {
+    color:white;
+}
+
+.button a {
 
     text-decoration: none;
     
@@ -71,6 +79,7 @@ button a {
 .header {
     z-index:2;
 }
+
 
 @media(min-width:600px) {
 
@@ -134,7 +143,7 @@ button a {
    
     }
 
-    button {
+    .button {
     padding: 12px 30px;
     border-radius: 30px;
     border-color:#5b43d6;
@@ -145,17 +154,17 @@ button a {
     
 }
 
-button:hover {
+.button:hover {
     background-color:#5b43d6;
     color:white;
 }
 
-    button a {
+    .button a {
         color:#5b43d6;
         text-decoration: none;
     }
 
-    button a:hover {
+    .button a:hover {
         color:white;
     }
 

@@ -4,9 +4,10 @@ import React, { Component } from 'react';
 export default class HomeButton extends Component {
     constructor() {
         super();
-        this.state = { isMoving: false};
+        this.state = { isMoving: false };
     }
 
+    
     
     render () {
         return (
@@ -17,6 +18,12 @@ export default class HomeButton extends Component {
     }
 }
 
-/*function toogleButton () {
-    this.setState { isMoving:true };
+/* function toogleButton () {
+    this.setState { 
+        (if(isMoving === true) {
+            return (
+                <Link to= '/portfolio'/>
+            );
+        }
+        )};
 }*/

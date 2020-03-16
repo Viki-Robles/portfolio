@@ -145,9 +145,18 @@ button a {
     
 }
 
+button:hover {
+    background-color:#5b43d6;
+    color:white;
+}
+
     button a {
         color:#5b43d6;
         text-decoration: none;
+    }
+
+    button a:hover {
+        color:white;
     }
 
 

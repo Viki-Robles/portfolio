@@ -121,6 +121,7 @@ button a {
         width:20%;
         height:50vh;
         border-radius: 4px;
+        padding-top: 20px;
 
     }
 
@@ -130,9 +131,7 @@ button a {
         padding-bottom:20px;
         font-weight: 600;
         font-size: calc(20px + 8 * ((100vw - 576px)/(1200)))
-       
-        
-       
+   
     }
 
     button {
@@ -142,14 +141,15 @@ button a {
     background-color: white;
     font-size:1rem;
     font-weight: 400;
+    margin-bottom: 10px;
     
-    
-    }
+}
 
     button a {
         color:#5b43d6;
         text-decoration: none;
     }
+
 
 }
         

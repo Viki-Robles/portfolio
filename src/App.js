@@ -3,7 +3,7 @@ import './App.css';
 import NavBar from './NavBar/NavBar';
 import Gallery from './Container/Gallery';
 import GetPricing from './CardServices/getPricing';
-
+import HomeButton from './homeButton/homeButton';
 
 
 
@@ -26,6 +26,7 @@ function App() {
       <GetPricing />
       </div>
       <div className="ContactForm">Get In Touch</div>
+      <HomeButton />
     </div>
 
   );

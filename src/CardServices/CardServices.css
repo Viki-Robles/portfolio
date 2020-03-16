@@ -36,7 +36,16 @@
 }
 
 
+.ContactForm {
+    height:60vh;
+    text-align: center;
+    padding-bottom:40px;
+    padding-top:30px;
+    color:#a9a9a9;
+    font-size:16px;
+    letter-spacing: 2px;
 
+}
 
 @media(min-width:600px) {
 

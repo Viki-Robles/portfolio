@@ -45,7 +45,7 @@
     justify-content:space-evenly;
     text-align: center;
     z-index:1;
-    background:linear-gradient(to bottom,#7a19f1,#332179);
+    background:linear-gradient(to bottom,#7a19f1,#6c5ea5);
     top:0;
     
   
@@ -83,7 +83,7 @@
         display: flex;
         justify-content: flex-end;
         flex-direction: row;
-        background:linear-gradient(to bottom,#7a19f1,#332179);
+        background:linear-gradient(to bottom,#7a19f1,#6c5ea5);
         padding:0;
         top:0;
         width:100%;

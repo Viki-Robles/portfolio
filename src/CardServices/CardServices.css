@@ -1,13 +1,44 @@
 
+.pricing {
+    display:grid;
+    grid-template-rows:1fr;
+}
+
+.pricingBox {
+    color:white;
+    height:60vh;
+    box-sizing: border-box;
+    border:1px solid #eee;
+    border-radius:4px;
+    padding:20px;
+    background-color:transparent ease 1s;
+    width:80%;
+    font-weight: bold;
+    margin:35px;;
+    transition-delay: background-color 0.5s ease-in-out;
+    
+}
+
+.pricingBox:hover {
+    background-color:white;
+    color:black;
+    
+}
+
+.pricingFeauture {
+    padding-top:40px;
+    font-weight:300;
+}
+
+.icon {
+    width:23%;
+    padding-top:25px;
+}
+
+
+
 
 @media(min-width:600px) {
-
-    .pricingBox{
-        transition: margin 1s;
-    }
-    .pricingBox:hover {
-        margin:5px;
-    }
 
     .pricing {
         display: grid;
@@ -15,24 +46,28 @@
              
     }
     
-    /*display: flex;
-        flex-wrap: wrap;
-        flex-direction:row;
-        justify-content:center;*/
-    
     .pricingBox {
-        color:black;
+        color:white;
         height:50vh;
         box-sizing: border-box;
-        border:2px solid #eee;
+        border:1px solid #eee;
         border-radius:4px;
         padding:10px;
-        background-color:white;
+        background-color:transparent ease 1s;
         justify-content: space-evenly;
         width:50%;
         font-weight: bold;
         margin:23%;
+        transition-delay: background-color 0.5s ease-in-out;
+        
     }
+
+    .pricingBox:hover {
+        background-color:white;
+        color:black;
+        
+    }
+
     
     .icon {
         width:23%;
@@ -54,9 +89,23 @@
             letter-spacing: 2px;
     
     }
+
+    .servicesBox {
+        padding-top:5px;
+    }
     
 }
 
 
 
-
+ /*display: flex;
+        flex-wrap: wrap;
+        flex-direction:row;
+        justify-content:center;
+        
+         .pricingBox{
+        transition: margin 1s;
+    }
+    .pricingBox:hover {
+        margin:5px;
+    }*/

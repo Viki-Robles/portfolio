@@ -3,6 +3,7 @@ import hamburger from '../images/menuicon.svg';
 import './NavBar.css';
 
 
+
 export default function NavBar() {
     const [menuDisplay, setMenuDisplay] = React.useState("menuDisplayoff");
 

@@ -18,7 +18,7 @@ function App() {
         Rubie
         </div>
       <NavBar />
-        <div className="portfolio_name">PORTFOLIO</div>
+        <div className="portfolio_name" id="portfolio">PORTFOLIO</div>
       <Gallery />
         <br />
         <hr />

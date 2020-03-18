@@ -26,6 +26,34 @@ html,body
 .footer {
     display:flex;
     justify-content: space-evenly;
-    padding-top:10%;
-    padding-bottom:3%;
+    padding-top:20%;
+    padding-bottom:8%;
+    color:#5b43d6;
+    font-weight:600;
+
+    
+}
+
+.footer a {
+    text-decoration: none;
+    color:#5b43d6;
+    font-weight:600;
+}
+
+@media(min-width:600px) {
+    .footer {
+        display:flex;
+        justify-content: space-evenly;
+        padding-top:10%;
+        padding-bottom:3%;
+        color:#5b43d6;
+        font-weight:600;
+        
+    }
+    
+    .footer a {
+        text-decoration: none;
+        color:#5b43d6;
+        font-weight:600;
+    }
 }

@@ -43,11 +43,13 @@ html,body
 @media(min-width:600px) {
     .footer {
         display:flex;
+        flex-wrap: wrap;
         justify-content: space-evenly;
         padding-top:10%;
         padding-bottom:3%;
         color:#5b43d6;
         font-weight:600;
+        
         
     }
     
@@ -55,5 +57,13 @@ html,body
         text-decoration: none;
         color:#5b43d6;
         font-weight:600;
+        flex:1;
     }
+
+    .footer_icon {
+        height:2vh;
+        flex:1;  
+    }
+
+    
 }

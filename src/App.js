@@ -7,6 +7,7 @@ import GetPricing from './CardServices/getPricing';
 import HomeButton from './homeButton/homeButton';
 import ScrollToTop from './ScrollMenu/ScrollMenu';
 import Footer from './Footer/Footer';
+import Form from './Form/Form';
 
 
 function App() {
@@ -27,7 +28,11 @@ function App() {
         <div className="Services">SERVICES
       <GetPricing />
         </div>
-        <div className="ContactForm">Get In Touch</div>
+        <div className="ContactForm">Get In Touch
+        
+        <Form/>
+        </div>
+        
       <HomeButton />
       <Footer/>
     </div>

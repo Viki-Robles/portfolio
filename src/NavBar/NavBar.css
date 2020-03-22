@@ -8,6 +8,9 @@
     line-height: 1.5;
 }
 
+.text {
+    display: none;
+}
 .myNav {
     height: 15vh;
     width:100vw;
@@ -102,6 +105,7 @@
 
     .menuItem {
         padding-top: 20px;
+        padding-right: 20px;
     }
 
     .header{
@@ -114,7 +118,17 @@
      
 }
 
-    
+.text {
+    z-index:2;
+    position:absolute;
+    padding-top:25%;
+    font-size: 30px;
+    font-weight: 800;
+    font-family:"Roboto";
+    color:white;
+    padding-left:10%;
+
+}
 
 }
 

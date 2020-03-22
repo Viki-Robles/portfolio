@@ -18,6 +18,9 @@ function App() {
       <div className="header">
         Rubie
         </div>
+        <div className="text">
+    You work..We build..
+        </div>
       <NavBar />
         <div className="portfolio_name" id="portfolio">PORTFOLIO</div>
       <Gallery />

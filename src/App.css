@@ -65,5 +65,23 @@ html,body
         flex:1;  
     }
 
+    form {
+        display: grid;
+        height:30vh;
+        margin:5%;
+        width:50vw;
+        margin-left:25%;
+        
+       
+    }
+    
+    input {
+        margin:10px;
+        color:#a9a9a9;
+        font-size:12px;
+        letter-spacing: 2px;
+
+    }
+
     
 }

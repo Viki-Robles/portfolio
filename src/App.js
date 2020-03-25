@@ -8,6 +8,7 @@ import HomeButton from './homeButton/homeButton';
 import ScrollToTop from './ScrollMenu/ScrollMenu';
 import Footer from './Footer/Footer';
 import Form from './Form/Form';
+import viki from '../src/images/viki.jpg';
 
 
 function App() {
@@ -32,6 +33,7 @@ function App() {
       <GetPricing />
         </div>
         <div className="ContactForm">Get In Touch
+        <img src={viki} alt="viki"/>
         
         <Form/>
         </div>

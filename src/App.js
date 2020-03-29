@@ -19,7 +19,7 @@ function App() {
       <div className="header">
         Rubie
         </div>
-        <h4 className="background-text">You work..We build..</h4>
+        <h4 className="background-text">You Work..We Build..</h4>
         
       <NavBar />
         <h3 className="portfolio_name" id="portfolio">PORTFOLIO</h3>

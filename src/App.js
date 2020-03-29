@@ -19,11 +19,10 @@ function App() {
       <div className="header">
         Rubie
         </div>
-        <div className="text">
-    You work..We build..
-        </div>
+        <h4 className="background-text">You work..We build..</h4>
+        
       <NavBar />
-        <div className="portfolio_name" id="portfolio">PORTFOLIO</div>
+        <h3 className="portfolio_name" id="portfolio">PORTFOLIO</h3>
       <Gallery />
         <br />
         <hr />

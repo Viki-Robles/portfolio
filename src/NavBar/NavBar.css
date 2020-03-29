@@ -115,16 +115,27 @@
      
 }
 
-.text {
-    z-index:2;
-    position:absolute;
+.background-text {
+    position: absolute;
+    z-index:3;
     padding-top:25%;
-    font-size: 30px;
+    font-size: 50px;
     font-weight: 800;
-    font-family:"Roboto";
+    font-family:"Roboto Mono";
     color:white;
     padding-left:10%;
+    animation: type 3s steps(20);
+    overflow:hidden;
+    white-space: nowrap;
+}
 
+@keyframes type {
+    0% {
+        width:0ch;
+    }
+    100% {
+        width:20ch;
+    }
 }
 
 }
@@ -147,6 +158,18 @@
     z-index: 1;
     background: linear-gradient(to bottom,#7a19f1,#332179);
     top: 0;
+}
+
+.text {
+    z-index:2;
+    position:absolute;
+    padding-top:25%;
+    font-size: 30px;
+    font-weight: 800;
+    font-family:"Roboto";
+    color:white;
+    padding-left:10%;
+
 }
 
 */

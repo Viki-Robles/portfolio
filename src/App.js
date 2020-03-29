@@ -33,13 +33,13 @@ function App() {
       <GetPricing />
         </div>
         <div className="ContactForm">Get In Touch
-        <img src={viki} alt="viki"/>
-        
+        <br/>
         <Form/>
         </div>
         
-      <HomeButton />
+      
       <Footer/>
+      <HomeButton />
     </div>
 </Router>
   );

@@ -13,36 +13,38 @@ import viki from '../src/images/viki.jpg';
 
 function App() {
   return (
-  <Router>
-    <ScrollToTop/>
-    <div className="App">
-      <div className="header">
-        Rubie
+    <Router>
+      <ScrollToTop />
+      <div className="App">
+        <div className="header">
+          Rubie
         </div>
-        <h4 className="background-text">You Work..We Build..</h4>
-        
-      <NavBar />
+        <NavBar />
         <h3 className="portfolio_name" id="portfolio">PORTFOLIO</h3>
-      <Gallery />
+        <Gallery />
         <br />
         <hr />
         <br />
         <br />
         <div className="Services">SERVICES
-      <GetPricing />
+                  <GetPricing />
         </div>
         <div className="ContactForm">Get In Touch
-        <br/>
-        <Form/>
+        <br />
+          <Form />
         </div>
-        
-      
-      <Footer/>
-      <HomeButton />
-    </div>
-</Router>
+
+
+        <Footer />
+        <HomeButton />
+      </div>
+    </Router>
   );
 }
 
 export default App;
 
+/*
+ <div className="background-text">
+        <h5>You Work..We Build..</h5>
+        </div>*/

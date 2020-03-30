@@ -139,7 +139,11 @@
     white-space: nowrap;
     border-right:3px solid white;
     width:21ch;
+    
+    
 }
+
+
 
 @keyframes type {
     0% {

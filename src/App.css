@@ -26,10 +26,11 @@ html,body
 .footer {
     display:flex;
     justify-content: space-evenly;
-    padding-top:20%;
-    padding-bottom:8%;
+    padding-top:40%;
     color:#5b43d6;
     font-weight:600;
+    padding-right: 30px;
+    padding-bottom:15%;
 
     
 }

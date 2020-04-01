@@ -84,11 +84,20 @@ input {
         color:#5b43d6;
         font-weight:600;
         flex:1;
+        display: inline-block;
+        border-radius: 30%;
+        box-shadow: 0 5px 15px -5px #00000070;
+        width:90px;
+        height:90px;
+        overflow: hidden;
+        position: relative;
+        line-height: 90px; 
     }
 
     .footer_icon {
         height:2vh;
-        flex:1;  
+        flex:1;
+         
     }
 
     form {
@@ -115,4 +124,6 @@ input {
         border:2px solid white;
         border-radius:50%;
     }
+
+    
 }

@@ -39,6 +39,14 @@ html,body
     text-decoration: none;
     color:#5b43d6;
     font-weight:600;
+    display: inline-block;
+        border-radius: 30%;
+        box-shadow: 0 5px 15px -5px #00000070;
+        width:70px;
+        height:70px;
+        overflow: hidden;
+        position: relative;
+        line-height: 70px;
 }
 
 form {

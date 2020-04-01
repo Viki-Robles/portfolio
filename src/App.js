@@ -36,7 +36,7 @@ function App() {
 
 
         <Footer />
-        <HomeButton />
+       
       </div>
     </Router>
   );

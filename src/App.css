@@ -26,20 +26,19 @@ html,body
 .footer {
     display:flex;
     justify-content: space-evenly;
-    padding-top:40%;
+    padding-top:45%;
     color:#5b43d6;
-    font-weight:600;
-    padding-right: 30px;
-    padding-bottom:15%;
+    font-size:14px;
+    padding-bottom:20%;
 
     
 }
 
 .footer a {
-    text-decoration: none;
-    color:#5b43d6;
-    font-weight:600;
-    display: inline-block;
+        text-decoration: none;
+        color:#5b43d6;
+        font-weight:700;
+        display: inline-block;
         border-radius: 30%;
         box-shadow: 0 5px 15px -5px #00000070;
         width:70px;
@@ -47,7 +46,10 @@ html,body
         overflow: hidden;
         position: relative;
         line-height: 70px;
+        
 }
+
+
 
 form {
     display: grid;
@@ -84,6 +86,7 @@ input {
         color:#5b43d6;
         font-weight:600;
         
+       
         
     }
     
@@ -94,12 +97,21 @@ input {
         flex:1;
         display: inline-block;
         border-radius: 30%;
-        box-shadow: 0 5px 15px -5px #00000070;
+        box-shadow: -7px -7px 20px 0 rgba(255, 255, 255, 0.7), 
+        7px 7px 20px 0 rgba(0, 0, 0, 0.2);
         width:90px;
         height:90px;
         overflow: hidden;
         position: relative;
-        line-height: 90px; 
+        line-height: 90px;
+        letter-spacing:1px;
+        border:none; 
+    }
+
+    .footer a:hover {
+        box-shadow: inset -7px -7px 20px 0 rgba(255, 255, 255, 0.7), 
+        inset 7px 7px 20px 0 rgba(0, 0, 0, 0.2)
+
     }
 
     .footer_icon {
@@ -129,9 +141,18 @@ input {
     .myPic {
         height:40vh;
         padding-top:40px;
-        border:2px solid white;
+        border:6px solid white;
         border-radius:50%;
     }
 
     
 }
+
+/* border-radius: 30%;
+        box-shadow: 0 5px 15px -5px #00000070;
+        width:90px;
+        height:90px;
+        overflow: hidden;
+        position: relative;
+        line-height: 90px;
+        */

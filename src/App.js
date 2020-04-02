@@ -20,6 +20,8 @@ function App() {
           Rubie
         </div>
         <NavBar />
+        
+
         <h3 className="portfolio_name" id="portfolio">PORTFOLIO</h3>
         <Gallery />
         <br />
@@ -27,7 +29,7 @@ function App() {
         <br />
         <br />
         <div className="Services">SERVICES
-                  <GetPricing />
+        <GetPricing />
         </div>
         <div className="ContactForm">Get In Touch
         <br />
@@ -36,6 +38,7 @@ function App() {
 
 
         <Footer />
+        
        
       </div>
     </Router>

@@ -83,6 +83,12 @@ input {
 }
 
 @media(min-width:600px) {
+
+  iframe {
+        width:80vw;
+        height:100vh;
+    }
+
     .footer {
         display:flex;
         flex-wrap: wrap;

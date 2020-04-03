@@ -20,6 +20,7 @@ export default function NavBar() {
                 </button>
             </nav>
             <main className="navMenu" id={menuDisplay}>
+            
                 <h4 className="menuItem"><a href="/portfolio" onClick={() => toggleMenu()}>portfolio</a></h4>
                 <h4 className="menuItem"><a href="/services" onClick={() => toggleMenu()}>services</a></h4>
                 <h4 className="menuItem"><a href="/contact" onClick={() => toggleMenu()}>contact</a></h4>

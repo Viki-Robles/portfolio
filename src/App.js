@@ -9,6 +9,7 @@ import ScrollToTop from './ScrollMenu/ScrollMenu';
 import Footer from './Footer/Footer';
 import Form from './Form/Form';
 import viki from '../src/images/viki.jpg';
+import portfoliovideo from './Video/portfoliovideo.mp4';
 
 
 function App() {
@@ -16,12 +17,9 @@ function App() {
     <Router>
       <ScrollToTop />
       <div className="App">
-        <div className="header">
-          Rubie
+        <div className="header">Rubie
         </div>
         <NavBar />
-        
-
         <h3 className="portfolio_name" id="portfolio">PORTFOLIO</h3>
         <Gallery />
         <br />
@@ -48,4 +46,9 @@ export default App;
 /*
  <div className="background-text">
         <h5>You Work..We Build..</h5>
-        </div>*/
+        </div>
+
+<video autoPlay loop muted>
+          <source src={portfoliovideo} type="video/mp4"/>
+        </video>
+        */

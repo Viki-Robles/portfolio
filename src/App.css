@@ -40,7 +40,8 @@ html,body
         font-weight:700;
         display: inline-block;
         border-radius: 30%;
-        box-shadow: 0 5px 15px -5px #00000070;
+        box-shadow: -7px -7px 20px 0 rgba(255, 255, 255, 0.7), 
+        7px 7px 20px 0 rgba(0, 0, 0, 0.2);
         width:70px;
         height:70px;
         overflow: hidden;
@@ -49,6 +50,11 @@ html,body
         
 }
 
+.footer a:hover {
+    box-shadow: inset -7px -7px 20px 0 rgba(255, 255, 255, 0.7), 
+    inset 7px 7px 20px 0 rgba(0, 0, 0, 0.2)
+
+}
 
 
 form {
@@ -148,11 +154,3 @@ input {
     
 }
 
-/* border-radius: 30%;
-        box-shadow: 0 5px 15px -5px #00000070;
-        width:90px;
-        height:90px;
-        overflow: hidden;
-        position: relative;
-        line-height: 90px;
-        */

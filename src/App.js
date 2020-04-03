@@ -35,11 +35,9 @@ function App() {
         <br />
           <Form />
         </div>
-
-
         <Footer />
         
-       
+       <HomeButton/>
       </div>
     </Router>
   );

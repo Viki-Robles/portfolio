@@ -16,6 +16,7 @@
     font-weight: bold;
     margin:35px;;
     transition-delay: background-color 0.5s ease-in-out;
+    box-shadow: -6px -6px 7px 0 rgba(0, 0, 0, 0.5), 6px 6px 9px 0 rgba(0, 0, 0, 0.7);
     
 }
 
@@ -68,7 +69,7 @@
         font-weight: bold;
         margin:23%;
         transition: background-color 1.4s ease;
-        
+        box-shadow: -6px -6px 7px 0 rgba(0, 0, 0, 0.5), 6px 6px 9px 0 rgba(0, 0, 0, 0.7);
     }
 
     .pricingBox:hover {

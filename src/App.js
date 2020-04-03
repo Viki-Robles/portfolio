@@ -19,7 +19,10 @@ function App() {
       <div className="App">
         <div className="header">Rubie
         </div>
-      
+        <div className="background-text">
+        <h5>
+        </h5>
+        </div>
         <NavBar />
         <h3 className="portfolio_name" id="portfolio">PORTFOLIO</h3>
         <Gallery />
@@ -27,7 +30,8 @@ function App() {
         <hr />
         <br />
         <br />
-        <div className="Services">SERVICES
+        <div className="Services"><h5>What I do</h5><br />
+        Strategy, design and a bit of magic
         <GetPricing />
         </div>
         <div className="ContactForm">Get In Touch

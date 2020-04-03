@@ -135,25 +135,15 @@
     font-family:Roboto;
     color:white;
     padding-left:10%;
-    animation: type 3s steps(20);
     overflow:hidden;
     white-space: nowrap;
-    border-right:3px solid white;
     width:21ch;
+    animation: type 3s steps(20);
+    
     
     
 }
 
-
-
-@keyframes type {
-    0% {
-        width:0ch;
-    }
-    100% {
-        width:21ch;
-    }
-}
 
 }
 
@@ -162,21 +152,6 @@
 #menuDisplayoff {
     display: none;
 }
-
-
-.navMenu {
-    position:relative;
-    height: 80vh;
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    text-align: center;
-    z-index: 1;
-    background: linear-gradient(to bottom,#7a19f1,#332179);
-    top: 0;
-}
-
 .text {
     z-index:2;
     position:absolute;
@@ -188,6 +163,8 @@
     padding-left:10%;
 
 }
+
+
 
 // this is if i want to put the video:
 .navMenu { 
@@ -214,4 +191,22 @@
         height:75vh;
         width:100vw;
        
+*/
+
+/*width:21ch;
+    animation: type 3s steps(20);
+        
+
+*/
+
+/*
+@keyframes type {
+    0% {
+        width:0ch;
+    }
+    100% {
+        width:21ch;
+    }
+}
+
 */

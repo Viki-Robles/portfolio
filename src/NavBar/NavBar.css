@@ -200,4 +200,18 @@
         height:0;
        
     }
+
+    .navMenu {
+        position: relative;
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: row;
+        background:linear-gradient(to bottom,#7a19f1,#6c5ea5);
+        padding:0;
+        top:0;
+        width:100%;
+        margin:0;
+        height:75vh;
+        width:100vw;
+       
 */

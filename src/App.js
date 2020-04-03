@@ -19,6 +19,7 @@ function App() {
       <div className="App">
         <div className="header">Rubie
         </div>
+      
         <NavBar />
         <h3 className="portfolio_name" id="portfolio">PORTFOLIO</h3>
         <Gallery />

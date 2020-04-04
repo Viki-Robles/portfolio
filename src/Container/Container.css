@@ -96,6 +96,8 @@
 
     }
 
+    
+
     .myskills {
         text-align: center;
         padding-top:50px;
@@ -120,18 +122,19 @@
     display: flex;
     flex-wrap: wrap;
     margin: 0;
-    grid-gap: 10px;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-evenly;
         
     }
 
+   
+
     .container .box {
-        flex:1;
+        
         border:4 solid white;
         width:100%;
         padding:0;
         background-size:cover;
-        background-position: 50%;
         padding-top:0px;
 
         

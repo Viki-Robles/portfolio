@@ -1,2 +1,25 @@
 
+.myskills {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin:10px;
+    justify-content: space-evenly;
+}
+
+.skills_icon {
+    flex:1;
+}
+@media(min-width:600px) {
+    .myskills {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .skills_icon {
+        flex:1;
+    }
+}
 

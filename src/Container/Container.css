@@ -4,7 +4,7 @@
     color:#a9a9a9;
     font-size:20px;
     letter-spacing: 2px;
-    background: linear-gradient(to bottom,#7a19f1,#6c5ea5);
+    background: white;
     font-weight: 400;
 
 }
@@ -26,7 +26,13 @@
     font-weight: 400;
     margin-bottom: 10px;
    
+   
        
+}
+
+.buttonCard  a {
+    color:#FB475E;
+    text-decoration: none;
 }
 
 .buttonCard:hover {
@@ -48,7 +54,7 @@
 
         padding-top:20px;
         padding-bottom:10px;
-        color:black;
+        color:#FB475E;
         font-weight: 600;
         font-size: calc(20px + 8 * ((100vw - 576px)/(1200)))
        

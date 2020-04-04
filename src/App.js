@@ -24,21 +24,21 @@ function App() {
           <img src={vikipeki} alt="mypic" className="portfoliopic" />
           <NavBar />
         </div>
-
         <h3 className="portfolio_name" id="portfolio">PORTFOLIO</h3>
         <Gallery />
         <br />
         <hr />
-
         <div className="Services"><h5>What I do</h5><br />
           Strategy, design and a bit of magic
         <GetPricing />
         </div>
-        <h3 className="myskills">My Skills</h3>
-        <MySkills icon="React" />
-        <MySkills icon="JavaScript" />
-        <MySkills icon="HTML5" />
-        <MySkills icon="CSS" />
+        <h3 className="Services">My Skills</h3>
+        <div className="myskills">
+        <MySkills skills_icon="React" />
+        <MySkills skills_icon="JavaScript" />
+        <MySkills skills_icon="HTML5" />
+        <MySkills skills_icon="CSS" />
+        </div>
         <div className="ContactForm">Get In Touch
         <br />
 

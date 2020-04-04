@@ -100,8 +100,8 @@ input {
         border-radius: 30%;
         box-shadow: -7px -7px 20px 0 rgba(255, 255, 255, 0.7), 
         7px 7px 20px 0 rgba(0, 0, 0, 0.2);
-        width:90px;
-        height:90px;
+        width:100px;
+        height:100px;
         overflow: hidden;
         position: relative;
         line-height: 90px;

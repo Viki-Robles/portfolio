@@ -5,7 +5,7 @@
 }
 
 .pricingBox {
-    color:white;
+    color:#FB475E;
     height:60vh;
     box-sizing: border-box;
     border:1px solid #eee;
@@ -57,7 +57,7 @@
     }
     
     .pricingBox {
-        color:white;
+        color:#FB475E;
         height:50vh;
         box-sizing: border-box;
         border:1px solid #eee;
@@ -73,8 +73,8 @@
     }
 
     .pricingBox:hover {
-        background-color:white;
-        color:black;
+        background-color:#FB475E;
+        color:white;
         
     }
 

@@ -1,13 +1,13 @@
 import React from 'react';
+import './MySkills.css';
 
 
 export default function MySkills(props) {
     return (
         <div className="myskills">
-            <li>
-                <h3>{props.skills}</h3>
-                <span className="bar"><span className={props.skills}></span></span>
-            </li>
+
+            <h3 className="icon">{props.icon}</h3>
+
         </div>
     );
 }

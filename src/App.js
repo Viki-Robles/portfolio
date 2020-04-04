@@ -9,6 +9,7 @@ import ScrollToTop from './ScrollMenu/ScrollMenu';
 import Footer from './Footer/Footer';
 import Form from './Form/Form';
 import vikipeki from './images/vikipeki.png';
+import MySkills from './Skills/MySkills';
 
 
 
@@ -17,30 +18,33 @@ function App() {
     <Router>
       <ScrollToTop />
       <div className="App">
-      <div className="hero">
-        <div className="header">Vasiliki</div>
-        <Footer />
-        <img src={vikipeki} alt="mypic" className="portfoliopic"/>
-        <NavBar />
+        <div className="hero">
+          <div className="header">Vasiliki</div>
+          <Footer />
+          <img src={vikipeki} alt="mypic" className="portfoliopic" />
+          <NavBar />
         </div>
 
         <h3 className="portfolio_name" id="portfolio">PORTFOLIO</h3>
         <Gallery />
         <br />
         <hr />
-        <br />
-        <br />
+
         <div className="Services"><h5>What I do</h5><br />
-        Strategy, design and a bit of magic
+          Strategy, design and a bit of magic
         <GetPricing />
         </div>
         <h3 className="myskills">My Skills</h3>
+        <MySkills icon="React" />
+        <MySkills icon="JavaScript" />
+        <MySkills icon="HTML5" />
+        <MySkills icon="CSS" />
         <div className="ContactForm">Get In Touch
         <br />
-        
+
           <Form />
         </div>
-        
+
       </div>
     </Router>
   );

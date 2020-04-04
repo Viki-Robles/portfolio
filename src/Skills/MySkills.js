@@ -7,6 +7,7 @@ export default function MySkills(props) {
         <div className="myskills">
             <div className="skills_icon">
                 <p>{props.skills_icon}</p>
+                <img src={props.logo} />
             </div>
         </div>
     );

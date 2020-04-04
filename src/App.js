@@ -19,10 +19,10 @@ function App() {
       <ScrollToTop />
       <div className="App">
         <div className="hero">
-          <div className="header">Vasiliki</div>
           <Footer />
-          <img src={vikipeki} alt="mypic" className="portfoliopic" />
           <NavBar />
+          <div className="header">Vasiliki</div>
+          <img src={vikipeki} alt="mypic" className="portfoliopic" />
         </div>
         <h3 className="portfolio_name" id="portfolio">PORTFOLIO</h3>
         <Gallery />
@@ -34,10 +34,10 @@ function App() {
         </div>
         <h3 className="Services">My Skills</h3>
         <div className="myskills">
-        <MySkills skills_icon="React" />
-        <MySkills skills_icon="JavaScript" />
-        <MySkills skills_icon="HTML5" />
-        <MySkills skills_icon="CSS" />
+          <MySkills skills_icon="React" />
+          <MySkills skills_icon="JavaScript" />
+          <MySkills skills_icon="HTML5" />
+          <MySkills skills_icon="CSS" />
         </div>
         <div className="ContactForm">Get In Touch
         <br />

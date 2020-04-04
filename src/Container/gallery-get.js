@@ -6,7 +6,7 @@ import countify from '../images/countify.png';
 
 export default function galleryGet() {
     return [
-        { id: "kodflix", name: "Kodflix", logo: kodflix, linkId: "https://kodflix-phi.now.sh/", details: "" },
-        { id: "countify", name: "Countify", logo: countify, linkId: "https://countify.now.sh/", details: "" }
+        { id: "kodflix", name: "KodFlix", logo: kodflix, linkId: "https://kodflix-phi.now.sh/", details: "" },
+        { id: "countify", name: "CountiFy", logo: countify, linkId: "https://countify.now.sh/", details: "" }
     ]
 }

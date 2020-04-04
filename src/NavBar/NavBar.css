@@ -9,12 +9,12 @@
 }
 
 .header{
-    color: #7a19f1;
+    color: #FB475E;
     position: absolute;
     margin: 22px;
     font-size: 30px;
     font-weight: 800;
-    font-family:"Kaushan Script";
+    font-family:"Roboto";
     z-index:2;
 }
 
@@ -115,10 +115,11 @@
     
     .menuItem a {
         padding:10px;
-        font-size:20px;
-        color:#7a19f1;
-        border:1px solid #7a19f1;
+        font-size:22px;
+        color:#FB475E;
+        border:1px solid #FB475E;
         border-radius:10px;
+        margin:10px;
         
     }
 
@@ -133,12 +134,12 @@
     }
 
     .header{
-    color: #7a19f1;
+    color: #FB475E;
     position: absolute;
     margin: 22px;
     font-size: 30px;
     font-weight: 800;
-    font-family:"Kaushan Script";
+    font-family:"Roboto";
     z-index:2;
      
 }

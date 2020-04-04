@@ -8,7 +8,7 @@ import HomeButton from './homeButton/homeButton';
 import ScrollToTop from './ScrollMenu/ScrollMenu';
 import Footer from './Footer/Footer';
 import Form from './Form/Form';
-import viki from '../src/images/viki.jpg';
+import vikipeki from './images/vikipeki.png';
 
 
 
@@ -17,11 +17,13 @@ function App() {
     <Router>
       <ScrollToTop />
       <div className="App">
-        <div className="header">Rubie
-        </div>
+      <div className="hero">
+        <div className="header">Vasiliki</div>
         <Footer />
-        <img src={viki} alt="mypic" className="portfoliopic"/>
+        <img src={vikipeki} alt="mypic" className="portfoliopic"/>
         <NavBar />
+        </div>
+
         <h3 className="portfolio_name" id="portfolio">PORTFOLIO</h3>
         <Gallery />
         <br />

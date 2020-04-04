@@ -24,7 +24,8 @@ html,body
 }
 
 .footer {
-    display:flex;
+    display:grid;
+    position:absolute;
     justify-content: space-evenly;
     padding-top:45%;
     color:#5b43d6;
@@ -47,7 +48,7 @@ html,body
         overflow: hidden;
         position: relative;
         line-height: 70px;
-        
+        margin:20px;
 }
 
 .footer a:hover {
@@ -75,11 +76,7 @@ input {
 
 }
 
-img {
-    width: 100%;
-  
-    object-fit: contain;
-}
+
 
 @media(min-width:600px) {
 
@@ -87,10 +84,11 @@ img {
         position:absolute;
         display:grid;
         justify-content: space-evenly;
-        padding-top:20%;
+        padding-top:12%;
         color:#5b43d6;
         font-weight:600;
-        z-index:4; 
+        z-index:4;
+        
         
     }
     
@@ -100,7 +98,7 @@ img {
         font-weight:600;
         display: inline-block;
         border-radius: 30%;
-        box-shadow: -7px -7px 20px 0 rgba(255, 255, 255, 0.7), 
+        box-shadow: -7px -7px 20px 0 rgba(255, 255, 255, 0.434), 
         7px 7px 20px 0 rgba(0, 0, 0, 0.2);
         width:90px;
         height:90px;
@@ -109,19 +107,13 @@ img {
         line-height: 90px;
         letter-spacing:1px;
         border:none; 
-        margin:15px;
+        margin:20px;
     }
 
     .footer a:hover {
         box-shadow: inset -7px -7px 20px 0 rgba(255, 255, 255, 0.7), 
         inset 7px 7px 20px 0 rgba(0, 0, 0, 0.2)
 
-    }
-
-    .footer_icon {
-        height:2vh;
-        flex:1;
-         
     }
 
     form {
@@ -142,12 +134,7 @@ img {
 
     }
 
-    .myPic {
-        height:40vh;
-        padding-top:40px;
-        border:6px solid white;
-        border-radius:50%;
-    }
+    
 
     
 }

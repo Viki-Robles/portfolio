@@ -1,11 +1,21 @@
-.header {
-    color: black;
+
+.portfoliopic {
+    opacity:0.7;
+    height:100vh;
+    width:100vw;
+    background-size: cover;
+    
+   
+}
+
+.header{
+    color: #7a19f1;
     position: absolute;
     margin: 22px;
     font-size: 30px;
     font-weight: 800;
-    font-family:"Roboto";
-    line-height: 1.5;
+    font-family:"Kaushan Script";
+    z-index:2;
 }
 
 .text {
@@ -28,6 +38,8 @@
 }
 
 .burgerButton {
+    position:relative;
+    margin-bottom: 350%;
     background:none;
     border:none;
     outline:none;
@@ -73,6 +85,8 @@
 }
 
 @media(min-width:600px) {
+
+    
     .burgerButton {
         display: none;
         
@@ -96,12 +110,9 @@
         top:0;
         margin:0;
         height:0;
-       
     }
 
-    .portfoliopic {
-       background-size: auto;
-    }
+    
     .menuItem a {
         padding:10px;
         font-size:20px;
@@ -111,8 +122,12 @@
         
     }
 
+    .menuItem a:hover{
+        background-color:white;
+    }
+
     .menuItem {
-        padding-top: 20px;
+        padding-top: 28px;
         padding-right: 20px;
         
     }
@@ -123,8 +138,18 @@
     margin: 22px;
     font-size: 30px;
     font-weight: 800;
-    font-family:"Roboto";
+    font-family:"Kaushan Script";
+    z-index:2;
      
+}
+
+.portfoliopic {
+    opacity:0.7;
+    height:100%;
+    width:100%;
+    background-size: cover;
+    
+   
 }
 
 .background-text {

@@ -95,6 +95,15 @@
         font-weight: 400;
 
     }
+
+    .myskills {
+        text-align: center;
+        padding-top:50px;
+        color:#a9a9a9;
+        font-size:20px;
+        font-weight: 400;
+        letter-spacing: 2px;
+    }
     .portfolio_name {
         text-align: center;
         padding-bottom:40px;

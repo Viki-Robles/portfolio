@@ -15,7 +15,7 @@ export default class Form extends Component {
     render() {
         return (
             <>
-            <img src={viki} alt="viki" className="myPic"/>
+            
                 <form>
                     <input placeholder="First Name " value={this.state.firstName} 
                     onChange={e => this.setState({firstName: e.target.value})}/>

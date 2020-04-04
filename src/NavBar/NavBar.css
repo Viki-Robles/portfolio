@@ -89,35 +89,36 @@
     }
 
     .navMenu {
-        position: relative;
         display: flex;
         justify-content: flex-end;
         flex-direction: row;
-        background:linear-gradient(to bottom,#7a19f1,#6c5ea5);
         padding:0;
         top:0;
-        width:100%;
         margin:0;
-        height:75vh;
-        width:100vw;
+        height:0;
        
     }
 
-    
+    .portfoliopic {
+       background-size: auto;
+    }
     .menuItem a {
         padding:10px;
         font-size:20px;
-        color:white;
+        color:#7a19f1;
+        border:1px solid #7a19f1;
+        border-radius:10px;
         
     }
 
     .menuItem {
         padding-top: 20px;
         padding-right: 20px;
+        
     }
 
     .header{
-    color: white;
+    color: #7a19f1;
     position: absolute;
     margin: 22px;
     font-size: 30px;
@@ -146,6 +147,8 @@
 
 
 }
+
+
 
 /*
 

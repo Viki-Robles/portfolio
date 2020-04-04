@@ -9,7 +9,7 @@ import ScrollToTop from './ScrollMenu/ScrollMenu';
 import Footer from './Footer/Footer';
 import Form from './Form/Form';
 import viki from '../src/images/viki.jpg';
-import portfoliovideo from './Video/portfoliovideo.mp4';
+
 
 
 function App() {
@@ -19,10 +19,8 @@ function App() {
       <div className="App">
         <div className="header">Rubie
         </div>
-        <div className="background-text">
-        <h5>
-        </h5>
-        </div>
+        <Footer />
+        <img src={viki} alt="mypic" className="portfoliopic"/>
         <NavBar />
         <h3 className="portfolio_name" id="portfolio">PORTFOLIO</h3>
         <Gallery />
@@ -34,13 +32,13 @@ function App() {
         Strategy, design and a bit of magic
         <GetPricing />
         </div>
+        <h3 className="myskills">My Skills</h3>
         <div className="ContactForm">Get In Touch
         <br />
+        
           <Form />
         </div>
-        <Footer />
         
-       <HomeButton/>
       </div>
     </Router>
   );

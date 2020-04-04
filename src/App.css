@@ -75,30 +75,22 @@ input {
 
 }
 
-.myPic {
-    height:40vh;
-    padding-top:40px;
-    border:2px solid white;
-    border-radius:50%;
+img {
+    width: 100%;
+  
+    object-fit: contain;
 }
 
 @media(min-width:600px) {
 
-  iframe {
-        width:80vw;
-        height:100vh;
-    }
-
     .footer {
-        display:flex;
-        flex-wrap: wrap;
+        position:absolute;
+        display:grid;
         justify-content: space-evenly;
         padding-top:20%;
-        padding-bottom:3%;
         color:#5b43d6;
         font-weight:600;
-        
-       
+        z-index:4; 
         
     }
     
@@ -106,7 +98,6 @@ input {
         text-decoration: none;
         color:#5b43d6;
         font-weight:600;
-        flex:1;
         display: inline-block;
         border-radius: 30%;
         box-shadow: -7px -7px 20px 0 rgba(255, 255, 255, 0.7), 
@@ -118,6 +109,7 @@ input {
         line-height: 90px;
         letter-spacing:1px;
         border:none; 
+        margin:15px;
     }
 
     .footer a:hover {

@@ -1,7 +1,7 @@
 
 .portfoliopic {
     opacity:0.7;
-    height:100vh;
+    height:90vh;
     width:100vw;
     background-size: cover;
     
@@ -39,7 +39,7 @@
 
 .burgerButton {
     position:relative;
-    margin-bottom: 350%;
+    margin-bottom: 320%;
     background:none;
     border:none;
     outline:none;

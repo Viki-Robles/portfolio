@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import viki from '../images/viki.jpg';
+
 
 export default class Form extends Component {
     constructor() {

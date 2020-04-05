@@ -1,16 +1,17 @@
 
+
 .portfoliopic {
     opacity:0.7;
     height:90vh;
     width:100vw;
     background-size: cover;
-    
+    z-index:1;
    
 }
 
 .header{
     color: #FB475E;
-    position: absolute;
+    position: relative;
     margin: 22px;
     font-size: 30px;
     font-weight: 800;
@@ -29,6 +30,7 @@
     flex-direction: row-reverse;
     align-items: center;
     top:0;
+    position: absolute;
 }
 
 .burger {
@@ -38,8 +40,6 @@
 }
 
 .burgerButton {
-    position:relative;
-    margin-bottom: 320%;
     background:none;
     border:none;
     outline:none;

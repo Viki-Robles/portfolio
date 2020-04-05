@@ -18,12 +18,12 @@ function App() {
     <Router>
       <ScrollToTop />
       <div className="App">
-        <div className="hero">
+        
           <Footer />
           <NavBar />
           <div className="header">Vasiliki</div>
           <img src={vikipeki} alt="mypic" className="portfoliopic" />
-        </div>
+        
         <h3 className="portfolio_name" id="portfolio">PORTFOLIO</h3>
         <Gallery />
         <br />

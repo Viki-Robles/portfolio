@@ -23,6 +23,10 @@ html,body
     overflow-x: hidden; 
 }
 
+.hero {
+   
+}
+
 .footer {
     display:grid;
     position:absolute;
@@ -31,6 +35,7 @@ html,body
     color:#FB475E;
     font-size:14px;
     padding-bottom:20%;
+    z-index:1;
 
     
 }

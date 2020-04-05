@@ -87,7 +87,11 @@
 
 
 .header {
-    z-index:2;
+    margin-right: 60%;
+    font-size: 30px;
+    font-weight: 800;
+    font-family: "Roboto";
+    color: #FB475E;
 }
 
 

@@ -1,5 +1,25 @@
+@media(min-width:600px) {
+    .content p {
+        justify-content: center;
+        margin-top:50px;
+        
+    }
 
-.content h3 {
-    color:#a9a9a9;
-    margin-top:20px;
+    .square {
+        box-sizing: border-box;
+        
+       
+    }
+
+    .content p h1 {
+        font-size:14px;
+        color:#FB475E;
+    }
+
+    .content p h2 {
+        font-size: 25px;
+        line-height: 1.1;
+        margin-bottom:10px;
+        
+    }
 }

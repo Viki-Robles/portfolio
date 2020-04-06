@@ -1,25 +1,28 @@
 
-.myskills {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin:10px;
+ .myskills {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     justify-content: space-evenly;
+    margin:22px;
+    grid-gap:2;
+   
 }
 
-.skills_icon {
-    flex:1;
+.myskills img {
+   width: 80px;
 }
+
+
 @media(min-width:600px) {
     .myskills {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        justify-content: space-evenly;
+        margin-left:100px;
     }
     
-    .skills_icon {
-        flex:1;
-    }
+   .myskills img {
+       width: 60%;
+   }
 }
 

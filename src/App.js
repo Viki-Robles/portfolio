@@ -10,19 +10,22 @@ import Footer from './Footer/Footer';
 import Form from './Form/Form';
 import vikipeki from './images/vikipeki.png';
 import MySkills from './Skills/MySkills';
-
-
+import AboutMe from './images/AboutMe/AboutMe';
+import CSSlogo from './images/CSSlogo.jpg';
+import HTMLlogopng from './images/HTMLlogopng.png';
+import JSlogo from './images/JSlogo.svg';
+import react from './images/react.png';
 
 function App() {
   return (
     <Router>
       <ScrollToTop />
       <div className="App">
-          <Footer />
-          <NavBar />
-          <div className="header">Vasiliki</div>
-          <img src={vikipeki} alt="mypic" className="portfoliopic" />
-        
+        <Footer />
+        <NavBar />
+        <div className="header">Vasiliki</div>
+        <img src={vikipeki} alt="mypic" className="portfoliopic" />
+        <AboutMe />
         <h3 className="portfolio_name" id="portfolio">PORTFOLIO</h3>
         <Gallery />
         <br />
@@ -33,10 +36,11 @@ function App() {
         </div>
         <h3 className="Services">My Skills</h3>
         <div className="myskills">
-          <MySkills skills_icon="React" />
-          <MySkills skills_icon="JavaScript" />
-          <MySkills skills_icon="HTML5" />
-          <MySkills skills_icon="CSS" />
+          <MySkills logo={CSSlogo}/>
+          <MySkills logo={JSlogo}/>
+          <MySkills logo={HTMLlogopng}/>
+          <MySkills logo={react}/> 
+
         </div>
         <div className="ContactForm">Get In Touch
         <br />

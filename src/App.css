@@ -4,6 +4,7 @@
     padding:0;
     box-sizing: border-box;
     text-align: center;
+    
 }
 
 hr {
@@ -46,8 +47,8 @@ html,body
         border-radius: 30%;
         box-shadow: -7px -7px 20px 0 rgba(255, 255, 255, 0.7), 
         7px 7px 20px 0 rgba(0, 0, 0, 0.2);
-        width:0px;
-        height:70px;
+        width:60px;
+        height:60px;
         overflow: hidden;
         position: relative;
         line-height: 70px;
@@ -91,7 +92,7 @@ input {
         position:absolute;
         display:grid;
         justify-content: space-evenly;
-        padding-top:12%;
+        padding-top:30%;
         color:#FB475E;
         font-weight:600;
         z-index:2;
@@ -107,8 +108,8 @@ input {
         border-radius: 30%;
         box-shadow: -7px -7px 20px 0 rgba(215, 214, 214, 0.7), 
         7px 7px 20px 0 rgba(0, 0, 0, 0.2);
-        width:100px;
-        height:100px;
+        width:80px;
+        height:80px;
         overflow: hidden;
         position: relative;
         line-height: 90px;

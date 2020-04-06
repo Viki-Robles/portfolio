@@ -13,7 +13,7 @@
     color: #FB475E;
     position: absolute;
     margin: 22px;
-    font-size: 30px;
+    font-size: 23px;
     font-weight: 800;
     z-index:2;
 }
@@ -33,9 +33,7 @@
 }
 
 .burger {
-    width:50px;
-    height:60px;
-
+    height:40px;
 }
 
 .burgerButton {

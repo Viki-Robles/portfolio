@@ -1,3 +1,27 @@
+.content p {
+    justify-content: center;
+    margin-top:50px;
+    
+}
+
+.square {
+    box-sizing: border-box;
+    
+   
+}
+
+.content p h1 {
+    font-size:14px;
+    color:#FB475E;
+}
+
+.content p h2 {
+    font-size: 25px;
+    line-height: 1.1;
+    margin-bottom:10px;
+    
+}
+
 @media(min-width:600px) {
     .content p {
         justify-content: center;

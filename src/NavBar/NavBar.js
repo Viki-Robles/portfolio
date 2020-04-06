@@ -1,5 +1,5 @@
 import React from 'react';
-import hamburger from '../images/menuicon.svg';
+import mylogo from '../images/mylogo.png';
 import './NavBar.css';
 
 
@@ -16,7 +16,7 @@ export default function NavBar() {
 
             <nav className="myNav">
                 <button className="burgerButton" onClick={() => toggleMenu()}>
-                    <img className="burger" src={hamburger} alt="hamburger" />
+                    <img className="burger" src={mylogo} alt="hamburger" />
                 </button>
             </nav>
             <main className="navMenu" id={menuDisplay}>

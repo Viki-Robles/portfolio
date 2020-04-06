@@ -17,3 +17,4 @@ export default function AboutMe() {
     );
 }
 
+/**data-aos="fade-down" */

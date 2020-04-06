@@ -23,7 +23,7 @@ function App() {
       <div className="App">
         <Footer />
         <NavBar />
-        <div className="header">Vasiliki</div>
+        <div className="header">V_siliki</div>
         <img src={vikipeki} alt="mypic" className="portfoliopic" />
         <AboutMe />
         <h3 className="portfolio_name" id="portfolio">PORTFOLIO</h3>

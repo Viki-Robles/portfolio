@@ -23,9 +23,7 @@ html,body
     overflow-x: hidden; 
 }
 
-.hero {
-   
-}
+
 
 .footer {
     display:grid;
@@ -62,6 +60,10 @@ html,body
 
 }
 
+.icon_footer {
+    width:30%;
+    padding-top:30%;
+}
 
 form {
     display: grid;
@@ -121,6 +123,12 @@ input {
         box-shadow: inset -7px -7px 20px 0 rgba(255, 255, 255, 0.7), 
         inset 7px 7px 20px 0 rgba(0, 0, 0, 0.2)
 
+    }
+
+    .icon_footer {
+        width:33%;
+        padding-top:30%;
+       
     }
 
     form {

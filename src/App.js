@@ -18,7 +18,6 @@ function App() {
     <Router>
       <ScrollToTop />
       <div className="App">
-        
           <Footer />
           <NavBar />
           <div className="header">Vasiliki</div>

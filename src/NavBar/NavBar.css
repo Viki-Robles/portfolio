@@ -11,7 +11,7 @@
 
 .header{
     color: #FB475E;
-    position: relative;
+    position: absolute;
     margin: 22px;
     font-size: 30px;
     font-weight: 800;

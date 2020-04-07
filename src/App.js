@@ -36,10 +36,10 @@ function App() {
         </div>
         <h3 className="Services">My Skills</h3>
         <div className="myskills">
-          <MySkills logo={CSSlogo}/>
-          <MySkills logo={JSlogo}/>
-          <MySkills logo={HTMLlogopng}/>
-          <MySkills logo={react}/> 
+          <MySkills logo={CSSlogo} />
+          <MySkills logo={JSlogo} />
+          <MySkills logo={HTMLlogopng} />
+          <MySkills logo={react} />
 
         </div>
         <div className="ContactForm">Get In Touch

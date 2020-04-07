@@ -65,6 +65,7 @@
     font-weight:600;
     text-decoration:none;
     color:white;
+   
 }
 
 #menuDisplayoff {
@@ -118,6 +119,7 @@
         border:1px solid #FB475E;
         border-radius:10px;
         margin:10px;
+        scroll-behavior: smooth;
         
     }
 
@@ -128,6 +130,7 @@
     .menuItem {
         padding-top: 28px;
         padding-right: 20px;
+        
         
     }
 

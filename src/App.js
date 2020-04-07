@@ -30,7 +30,7 @@ function App() {
         <Gallery />
         <br />
         <hr />
-        <div className="Services"><h5>What I do</h5><br />
+        <div className="Services" id="services"><h5>What I do</h5><br />
           Strategy, design and a bit of magic
         <GetPricing />
         </div>

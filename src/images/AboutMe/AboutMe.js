@@ -9,7 +9,7 @@ export default function AboutMe() {
 
     return (
         <div className="square">
-            <div className="content" data-aos="fade-down">
+            <div className="content">
                 <p> <h1>Hi, my name is</h1><br/> <h2>Vasiliki Vasilopoulou</h2>and I am a web developer with passion for front-end development and design. 
                  <br/>I recently finished the Bootcamp called Kodiri 
                     and currently I am aspired towards a career <br/>that will alow 

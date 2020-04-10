@@ -47,7 +47,11 @@ function App() {
 
           <Form />
         </div>
-
+        <div className="myDetails" id="myDetails">
+        <h4 className="Contact">Email: vasiliki.robles@gmail.com</h4>
+        <h4 className="Contact">Contact Number: +44 7438 577 974</h4>
+        </div>
+        <h3 className="endTitle">Designed & Build by Vasiliki Vasilopoulou</h3>
       </div>
     </Router>
   );

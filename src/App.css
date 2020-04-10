@@ -87,6 +87,12 @@ input {
 
 }
 
+.endTitle {
+    color:#FB475E;
+    font-size:12px;
+    margin-bottom:30px;
+}
+
 
 
 @media(min-width:600px) {
@@ -154,7 +160,21 @@ input {
     }
 
     
+    .endTitle {
+        color:#FB475E;
+        font-size:12px;
+        margin-bottom:30px;
+    }
 
+    .Contact {
+        color:#a9a9a9;
+        font-size:13px;
+       
+    }
+
+   .myDetails {
+       margin-bottom: 30px;;
+   }
     
 }
 

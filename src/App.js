@@ -8,7 +8,7 @@ import HomeButton from './homeButton/homeButton';
 import ScrollToTop from './ScrollMenu/ScrollMenu';
 import Footer from './Footer/Footer';
 import Form from './Form/Form';
-import vikipeki from './images/vikipeki.png';
+import minimal from './images/minimal.jpg';
 import MySkills from './Skills/MySkills';
 import AboutMe from './images/AboutMe/AboutMe';
 import CSSlogo from './images/CSSlogo.jpg';
@@ -24,7 +24,7 @@ function App() {
         <Footer />
         <NavBar />
         <div className="header">V_siliki</div>
-        <img src={vikipeki} alt="mypic" className="portfoliopic" />
+        <img src={minimal} alt="mypic" className="portfoliopic" />
         <AboutMe />
         <h3 className="portfolio_name" id="portfolio">PORTFOLIO</h3>
         <Gallery />

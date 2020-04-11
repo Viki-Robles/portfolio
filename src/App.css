@@ -34,7 +34,7 @@ html,body
     position:absolute;
     justify-content: space-evenly;
     padding-top:45%;
-    color:#FB475E;
+    color:#A56969;
     font-size:14px;
     padding-bottom:20%;
     z-index:1;
@@ -44,7 +44,7 @@ html,body
 
 .footer a {
         text-decoration: none;
-        color:#FB475E;
+        color:#A56969;
         font-weight:700;
         display: inline-block;
         border-radius: 30%;
@@ -81,14 +81,14 @@ form {
 
 input {
     margin:10px;
-    color:#FB475E;
+    color:#A56969;
     font-size:12px;
     letter-spacing: 2px;
 
 }
 
 .endTitle {
-    color:#FB475E;
+    color:#A56969;
     font-size:12px;
     margin-bottom:30px;
 }
@@ -111,7 +111,7 @@ input {
         display:grid;
         justify-content: space-evenly;
         padding-top:30%;
-        color:#FB475E;
+        color:#A56969;
         font-weight:600;
         z-index:2;
         
@@ -120,7 +120,7 @@ input {
     
     .footer a {
         text-decoration: none;
-        color:#FB475E;
+        color:#A56969;
         font-weight:600;
         display: inline-block;
         border-radius: 30%;
@@ -170,7 +170,7 @@ input {
 
     
     .endTitle {
-        color:#FB475E;
+        color:#A56969;
         font-size:12px;
         margin-bottom:30px;
     }

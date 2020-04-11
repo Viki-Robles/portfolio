@@ -5,7 +5,7 @@
 }
 
 .pricingBox {
-    color:#FB475E;
+    color:#A56969;
     height:60vh;
     box-sizing: border-box;
     border:1px solid #eee;
@@ -21,7 +21,7 @@
 }
 
 .pricingBox:hover {
-    background-color:white;
+    background-color:#C98F90;
     color:black;
     
 }
@@ -42,7 +42,7 @@
     text-align: center;
     padding-bottom:40px;
     padding-top:30px;
-    color:#a9a9a9;
+    color:#A56969;
     font-size:16px;
     letter-spacing: 2px;
 
@@ -57,7 +57,7 @@
     }
     
     .pricingBox {
-        color:#FB475E;
+        color:#A56969;
         height:50vh;
         box-sizing: border-box;
         border:1px solid #eee;
@@ -73,7 +73,7 @@
     }
 
     .pricingBox:hover {
-        background-color:#FB475E;
+        background-color:#C98F90;
         color:white;
         
     }

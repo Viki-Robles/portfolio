@@ -59,16 +59,17 @@
 
 
     .hexagonPic {
+       
         position: absolute;
         width: 300px;
         height:173px;
-        background: #D5C1C1;
+        background: #A56969;
         justify-content: center;
         align-items: center;
         display: flex;
         box-sizing: border-box;
-        margin-left:10%;
-        margin-bottom:10%;
+        margin-left:15%;
+        bottom:-125%;
        
        
     }
@@ -85,12 +86,12 @@
 
     .hexagonPic::before {
         bottom:99.9%;
-        border-bottom: 90px solid #D5C1C1;
+        border-bottom: 90px solid #A56969;
     }
 
     .hexagonPic::after {
        top:100%;
-       border-top:90px solid #D5C1C1;
+       border-top:90px solid #A56969;
     }
 
     .hexagon-content {

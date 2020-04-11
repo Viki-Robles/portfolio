@@ -40,12 +40,6 @@ function App() {
           <MySkills logo={JSlogo} />
           <MySkills logo={HTMLlogopng} />
           <MySkills logo={react} />
-
-        </div>
-        <div className="ContactForm">Get In Touch
-        <br />
-
-          <Form />
         </div>
         <div className="myDetails" id="myDetails">
         <h4 className="Contact">Email: vasiliki.robles@gmail.com</h4>

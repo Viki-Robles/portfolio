@@ -1,40 +1,61 @@
 
- .myskills {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-content: space-evenly;
-    margin:22px;
-    grid-gap:2;
+.mySkillsBorder {
+    width: 70px;
+    height:70px;
+    margin:0 6px;
+    padding:8px;
+    display: inline-block;
+    border:3px solid #A56969;
+    border-radius:1px;
+    transform: rotate(45deg);
+    transition: all 500ms ease;
+    margin-top:50px;
+}
+
+.myskills {
+    display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
    
 }
 
-.myskills img {
-   width: 80px;
+.mySkillsBorder img {
+    width: 43px;
+    height:43px;
+    transform: rotate(-45deg);
+    
 }
 
 
 @media(min-width:600px) {
+
+    .mySkillsBorder {
+        width: 70px;
+        height:70px;
+        margin:0 6px;
+        padding:8px;
+        display: inline-block;
+        border:3px solid #A56969;
+        border-radius:1px;
+        transform: rotate(45deg);
+        transition: all 500ms ease;
+        margin-top:50px;
+        margin-bottom:50px;
+    }
+
     .myskills {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        justify-content: space-evenly;
-        margin-left:100px;
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: center;
        
+}
+
+    .mySkillsBorder img {
+        width: 43px;
+        height:43px;
+        transform: rotate(-45deg);
+        
         
     }
     
-   .myskills img {
-       width: 60px;
-   }
-
-   .myskills {
-    text-align: center;
-    padding-top:50px;
-    color:#A56969;
-    font-size:20px;
-    font-weight: 400;
-    letter-spacing: 2px;
 }
-   
-}
-

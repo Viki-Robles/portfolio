@@ -25,7 +25,14 @@ export default function AboutMe() {
                 </div>
             </div>
 
-            <div className="hexagonPic">
+            
+
+        </>
+    );
+}
+
+/**<img src={vikipeki} />
+ * <div className="hexagonPic">
                 <div className="hexagon_insidePic">
                     <div className="hexagon-contentPic">
                             
@@ -33,9 +40,4 @@ export default function AboutMe() {
 
                 </div>
             </div>
-
-        </>
-    );
-}
-
-/**<img src={vikipeki} />*/
+*/

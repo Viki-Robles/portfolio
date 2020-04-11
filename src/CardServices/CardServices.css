@@ -27,7 +27,6 @@
 }
 
 .pricingFeauture {
-    padding-top:40px;
     font-weight:300;
 }
 
@@ -36,17 +35,6 @@
     
 }
 
-
-.ContactForm {
-    height:60vh;
-    text-align: center;
-    padding-bottom:40px;
-    padding-top:30px;
-    color:#A56969;
-    font-size:16px;
-    letter-spacing: 2px;
-
-}
 
 @media(min-width:600px) {
 
@@ -58,8 +46,8 @@
     
     .pricingBox {
         color:#A56969;
-        height:60%;
-        width:60%;
+        height:50%;
+        width:50%;
         box-sizing: border-box;
         border:2px solid #eee;
         border-radius:2px;
@@ -70,47 +58,42 @@
         transition: background-color 1.4s ease;
         box-shadow: -1px -4px 7px 0 rgba(0, 0, 0, 0.5), 6px 6px 9px 0 rgba(0, 0, 0, 0.7);
         transform: rotate(45deg);
-    }
-
-
+    } 
 
     .pricingBox:hover {
         background-color:#C98F90;
         color:white;
-        
+        height:40%;
+        width:40%;
     }
 
     
     .icon {
-        width:23%;
+        width:21%;
         padding-top:25px;
         transform: rotate(-90deg);
     }
+
+
     .pricingFeauture {
-        padding-top:40px;
+        margin-bottom: 10%;
         font-weight:300;
     }
 
+    .pricingFeauture:hover{
+        font-size:5%;
+        justify-content: center;
+        align-items: center;
+    }
+
     .servicesBox {
-        padding:5px;
+        margin:20px;
         align-items: center;
         transform: rotate(-45deg);
     }
-
-    
     
 }
 
 
 
- /*display: flex;
-        flex-wrap: wrap;
-        flex-direction:row;
-        justify-content:center;
-        
-         .pricingBox{
-        transition: margin 1s;
-    }
-    .pricingBox:hover {
-        margin:5px;
-    }*/
+ 

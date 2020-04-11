@@ -11,6 +11,7 @@ export default function AboutMe() {
         <div className="hexagon">
             <div className="hexagon-inside">
                 <div className="hexagon-content">
+                    <h2 className="questionMark">?</h2>
                 <h1>Hi, my name is</h1><br /> <h2>Vasiliki Vasilopoulou</h2>and I 
                     am a web developer with passion for front-end development and design.
                     I recently finished the Bootcamp called Kodiri

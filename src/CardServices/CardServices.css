@@ -58,19 +58,21 @@
     
     .pricingBox {
         color:#A56969;
-        height:50vh;
+        height:60%;
+        width:60%;
         box-sizing: border-box;
-        border:1px solid #eee;
-        border-radius:4px;
-        padding:10px;
+        border:2px solid #eee;
+        border-radius:2px;
         background-color:transparent;
         justify-content: space-evenly;
-        width:50%;
         font-weight: bold;
         margin:23%;
         transition: background-color 1.4s ease;
-        box-shadow: -6px -6px 7px 0 rgba(0, 0, 0, 0.5), 6px 6px 9px 0 rgba(0, 0, 0, 0.7);
+        box-shadow: -1px -4px 7px 0 rgba(0, 0, 0, 0.5), 6px 6px 9px 0 rgba(0, 0, 0, 0.7);
+        transform: rotate(45deg);
     }
+
+
 
     .pricingBox:hover {
         background-color:#C98F90;
@@ -82,28 +84,20 @@
     .icon {
         width:23%;
         padding-top:25px;
+        transform: rotate(-90deg);
     }
     .pricingFeauture {
         padding-top:40px;
         font-weight:300;
     }
-    
-    
-    .ContactForm {
-            height:60vh;
-            text-align: center;
-            padding-bottom:40px;
-            padding-top:30px;
-            color:#a9a9a9;
-            font-size:16px;
-            letter-spacing: 2px;
-    
-    }
 
     .servicesBox {
-        padding-top:5px;
+        padding:5px;
         align-items: center;
+        transform: rotate(-45deg);
     }
+
+    
     
 }
 

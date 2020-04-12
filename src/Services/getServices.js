@@ -4,11 +4,9 @@ import getServicesItems from '../Services/getServicesItems';
 
 export default function getServices() {
     return(
-        
-            
         <div className="ServiceBoxes">
         {
-             getServicesItems().map(serviceKey => (
+             getServicesItems().map(serviceKey => 
                     <ServicesItems 
                     key={serviceKey.id}
                     id={serviceKey.id}
@@ -16,7 +14,7 @@ export default function getServices() {
                     BoxIcon={serviceKey.BoxIcon}
                     BoxContent={serviceKey.BoxContent}/>
                   
-                ))
+                )
               
              }
         </div>

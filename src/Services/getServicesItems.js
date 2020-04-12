@@ -9,5 +9,5 @@ export default function getServicesItems() {
         {id: "Box2", BoxTitle: "UI", BoxIcon: mobileicon, BoxContent:""},
         {id: "Box3", BoxTitle: "Web Design", BoxIcon: nounMobile, BoxContent:""}
 
-    ]
+    ];
 }

@@ -15,6 +15,7 @@ import react from './images/react.png';
 import ServicesItems from './Services/ServicesItems';
 
 
+
 function App() {
   return (
     <Router>
@@ -38,7 +39,7 @@ function App() {
         <div className="Services" id="services"><h5>What I do</h5><br />
           Strategy, design and a bit of magic
         </div>
-        <ServicesItems/>
+        <ServicesItems />
         <h3 className="Services">My Skills</h3>
         <div className="myskills">
           <MySkills logo={CSSlogo} />
@@ -47,8 +48,8 @@ function App() {
           <MySkills logo={react} />
         </div>
         <div className="myDetails" id="myDetails">
-        <h4 className="Contact">Email: vasiliki.robles@gmail.com</h4>
-        <h4 className="Contact">Contact Number: +44 7438 577 974</h4>
+          <h4 className="Contact">Email: vasiliki.robles@gmail.com</h4>
+          <h4 className="Contact">Contact Number: +44 7438 577 974</h4>
         </div>
         <h3 className="endTitle">Designed & Build by Vasiliki Vasilopoulou</h3>
       </div>

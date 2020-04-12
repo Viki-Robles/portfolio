@@ -12,8 +12,7 @@ import CSSlogo from './images/CSSlogo.jpg';
 import HTMLlogopng from './images/HTMLlogopng.png';
 import JSlogo from './images/JSlogo.svg';
 import react from './images/react.png';
-import ServicesItems from './Services/ServicesItems';
-
+import GetServices from './Services/getServices';
 
 
 function App() {
@@ -39,7 +38,7 @@ function App() {
         <div className="Services" id="services"><h5>What I do</h5><br />
           Strategy, design and a bit of magic
         </div>
-        <ServicesItems />
+        <GetServices/>
         <h3 className="Services">My Skills</h3>
         <div className="myskills">
           <MySkills logo={CSSlogo} />

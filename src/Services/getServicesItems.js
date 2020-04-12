@@ -5,9 +5,9 @@ import nounMobile from '../images/nounMobile.svg'
 
 export default function getServicesItems() {
     return[
-        {id: "Box1", BoxTitle: "Web Development", BoxIcon: nounDesign, BoxContent:""},
-        {id: "Box2", BoxTitle: "UI", BoxIcon: mobileicon, BoxContent:""},
-        {id: "Box3", BoxTitle: "Web Design", BoxIcon: nounMobile, BoxContent:""}
+        {id: "mobileicon", BoxTitle: "Web Development", BoxIcon: nounDesign, BoxContent:""},
+        {id: "nounDesign", BoxTitle: "UI", BoxIcon: mobileicon, BoxContent:""},
+        {id: "nounMobile", BoxTitle: "Web Design", BoxIcon: nounMobile, BoxContent:""}
 
     ];
 }

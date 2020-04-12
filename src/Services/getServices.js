@@ -2,11 +2,11 @@ import React from 'react';
 import ServicesItems from '../Services/ServicesItems';
 import getServicesItems from '../Services/getServicesItems';
 
-export default function getServices() {
+export default function GetServices() {
     return(
         <div className="ServiceBoxes">
         {
-             getServicesItems().map(serviceKey => 
+             getServicesItems().map(serviceKey => (
                     <ServicesItems 
                     key={serviceKey.id}
                     id={serviceKey.id}
@@ -14,7 +14,7 @@ export default function getServices() {
                     BoxIcon={serviceKey.BoxIcon}
                     BoxContent={serviceKey.BoxContent}/>
                   
-                )
+                ))
               
              }
         </div>

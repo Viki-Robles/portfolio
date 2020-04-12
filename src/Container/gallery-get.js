@@ -1,4 +1,4 @@
-import react from 'react';
+import React from 'react';
 import kodflix from '../images/kodflix.png';
 import countify from '../images/countify.png';
 

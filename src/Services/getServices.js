@@ -4,9 +4,9 @@ import getServicesItems from '../Services/getServicesItems';
 
 export default function getServices() {
     return(
-        <div>
-            {
-             
+        
+            
+        <div className="ServiceBoxes">
              getServicesItems.map(serviceKey => (
                     <ServicesItems 
                     key={serviceKey.id}
@@ -14,10 +14,11 @@ export default function getServices() {
                     BoxTitle={serviceKey.BoxTitle}
                     BoxIcon={serviceKey.BoxIcon}
                     BoxContent={serviceKey.BoxContent}/>
-
+                  
                 ))
-               
-            }
+              
+            
         </div>
+        
     );
 }

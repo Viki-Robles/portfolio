@@ -3,23 +3,40 @@
 @media(min-width:600px) {
 .ServiceBoxes {
     display: flex;
-    grid-template-columns: 1fr 1fr 1fr;
+    margin:5em 7em 0;
+    justify-content: center;
+    flex-wrap: wrap;
+    
 
 }
 
 .ServiceBox{
-    border:4px solid red;
-    width:300px;
-    height:300px;
+    border:4px solid #A56969;
+    width:200px;
+    height:200px;
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0 50%);
+    align-items: center;
+    background-color: #A56969;
+    display: flex;
+    text-align: center;
+    justify-content: center;
 }
 
 .BoxTitle {
-    color:black;
+    color:white;
+    padding:0 0.5em;
+    font-size:15px;
+    
+
 }
 
 .BoxTitle img{
     width:30px;
     height:30px;
 
+}
+
+.ServiceBox:nth-child(odd) {
+    margin:7em 0.1em;
 }
 }

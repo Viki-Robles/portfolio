@@ -4,10 +4,8 @@ import './App.css';
 import NavBar from './NavBar/NavBar';
 import Gallery from './Container/Gallery';
 import GetPricing from './CardServices/getPricing';
-import HomeButton from './homeButton/homeButton';
 import ScrollToTop from './ScrollMenu/ScrollMenu';
 import Footer from './Footer/Footer';
-import Form from './Form/Form';
 import minimal from './images/minimal.jpg';
 import MySkills from './Skills/MySkills';
 import AboutMe from './images/AboutMe/AboutMe';
@@ -26,6 +24,13 @@ function App() {
         <div className="header">V_siliki</div>
         <img src={minimal} alt="mypic" className="portfoliopic" />
         <AboutMe />
+        <div className="squares">
+          <div className="square"></div>
+          <div className="square"></div>
+          <div className="square"></div>
+          <div className="square"></div>
+
+        </div>
         <h3 className="portfolio_name" id="portfolio">PORTFOLIO</h3>
         <Gallery />
         <br />

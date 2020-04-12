@@ -7,7 +7,8 @@ export default function getServices() {
         
             
         <div className="ServiceBoxes">
-             getServicesItems.map(serviceKey => (
+        {
+             getServicesItems().map(serviceKey => (
                     <ServicesItems 
                     key={serviceKey.id}
                     id={serviceKey.id}
@@ -17,7 +18,7 @@ export default function getServices() {
                   
                 ))
               
-            
+             }
         </div>
         
     );

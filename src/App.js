@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import './App.css';
 import NavBar from './NavBar/NavBar';
 import Gallery from './Container/Gallery';
-import GetPricing from './CardServices/getPricing';
 import ScrollToTop from './ScrollMenu/ScrollMenu';
 import Footer from './Footer/Footer';
 import minimal from './images/minimal.jpg';
@@ -13,6 +12,8 @@ import CSSlogo from './images/CSSlogo.jpg';
 import HTMLlogopng from './images/HTMLlogopng.png';
 import JSlogo from './images/JSlogo.svg';
 import react from './images/react.png';
+import ServicesItems from './Services/ServicesItems';
+
 
 function App() {
   return (
@@ -29,7 +30,6 @@ function App() {
           <div className="square"></div>
           <div className="square"></div>
           <div className="square"></div>
-
         </div>
         <h3 className="portfolio_name" id="portfolio">PORTFOLIO</h3>
         <Gallery />
@@ -37,8 +37,8 @@ function App() {
         <hr />
         <div className="Services" id="services"><h5>What I do</h5><br />
           Strategy, design and a bit of magic
-        <GetPricing />
         </div>
+        <ServicesItems/>
         <h3 className="Services">My Skills</h3>
         <div className="myskills">
           <MySkills logo={CSSlogo} />

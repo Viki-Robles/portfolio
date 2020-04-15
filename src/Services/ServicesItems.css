@@ -11,7 +11,7 @@
 .ServiceBox{
     border:4px solid #A56969;
     width:600%;
-    height:200px;
+    height:150px;
     clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0 50%);
     align-items: center;
     background-color: #A56969;
@@ -51,9 +51,6 @@
 
 }
 
-.ServiceBox::before {
-    transform: rotate(60deg);
-}
 
 .ServiceBox{
     border:4px solid #A56969;
@@ -68,21 +65,18 @@
     
 }
 
-.ServiceBox:hover {
-    transform: rotate(110deg);
-}
 
 .BoxTitle {
     color:white;
-    padding:0 0.5em;
-    font-size:15px;
+    padding:0 0.8em;
+    font-size:17px;
     
 
 }
 
 .BoxTitle img{
-    width:40px;
-    height:40px;
+    width:50px;
+    height:50px;
     margin-top:15px;
 
 }

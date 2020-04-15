@@ -1,12 +1,12 @@
 import React from 'react';
 import kodflix from '../images/kodflix.png';
-import countify from '../images/countify.png';
+import burgerProject from '../images/burgerProject.png';
 
 
 
 export default function galleryGet() {
     return [
         { id: "kodflix", name: "KodFlix", logo: kodflix, linkId: "https://kodflix-phi.now.sh/", details: "" },
-        { id: "countify", name: "CountiFy", logo: countify, linkId: "https://countify.now.sh/", details: "" }
+        { id: "countify", name: "CountiFy", logo: burgerProject, linkId: "https://udemy-lilac.now.sh/", details: "" }
     ]
 }

@@ -1,3 +1,70 @@
+
+/*These media querie is for iphone 6/7/8*/
+
+.hexagon {
+    position: relative;
+    width: 340px;
+    height:250px;
+    background: #D5C1C1;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    box-sizing: border-box;
+    margin-top:200px;
+    margin-bottom:30%;
+    margin-left:10px;
+    margin-left:18px;
+
+}
+
+.hexagon::before,
+.hexagon::after {
+    content: '';
+    position: absolute;
+    width:0;
+    border-left: 170px solid transparent;
+    border-right: 170px solid transparent;
+
+    
+}
+
+.hexagon::before {
+    bottom:99.9%;
+    border-bottom: 90px solid #D5C1C1;
+
+}
+
+.hexagon::after {
+   top:100%;
+   border-top:90px solid #D5C1C1;
+
+}
+
+.hexagon-content {
+    justify-content: center;
+    align-items: center;
+    padding:5px;
+    font-size:14px;
+}
+
+.hexagon-content h1 {
+    font-size:15px;
+    color: #F9F7F7;
+    margin-top:5px;
+
+}
+
+.hexagon-content h2{
+    margin-bottom:5px;
+    color:#A56969;
+    font-size:20px
+}
+
+.questionMark {
+    font-size:0px;
+    margin-top:0px;
+}
+
 @media(min-width:600px) {
     .hexagon {
         position: relative;
@@ -65,64 +132,74 @@
     
 }
 
-
 /*
 
-.content p {
-    justify-content: center;
-    margin-top:50px;
-    font-size:12px;
-    
-}
-
-.square {
-    box-sizing: border-box;
-    
-   
-}
-
-.content p h1 {
-    font-size:14px;
-    color:#FB475E;
-}
-
-.content p h2 {
-    font-size: 15px;
-    line-height: 1.1;
-    margin-bottom:10px;
-    color:#827e7e;
-    
-}
-
-@media(min-width:600px) {
-    .content p {
+@media all and (max-width: 599px) and (min-width: 475px) {
+    .hexagon {
+        position: relative;
+        width: 440px;
+        height:340px;
+        background: #D5C1C1;
         justify-content: center;
-        margin-top:50px;
-        
-    }
-
-    .square {
+        align-items: center;
+        display: flex;
         box-sizing: border-box;
+        margin-top:200px;
+        margin-bottom:30%;
+        margin-left:16px;
         
+    
+    }
+
+    .hexagon::before,
+    .hexagon::after {
+        content: '';
+        position: absolute;
+        width:0;
+        border-left: 220px solid transparent;
+        border-right: 220px solid transparent;
+
+        
+    }
+
+    .hexagon-content {
+        justify-content: center;
+        align-items: center;
+        padding:20px;
+        font-size:15px;
+    }
+
+    .hexagon-content h1 {
+        font-size:18px;
+        color: #F9F7F7;
+    
+    }
+
+    .hexagon-content h2{
+        margin-bottom:22px;
+        color:#A56969;
+        font-size:22px;
+    }
+
+    .questionMark {
+        font-size:46px;
+        margin-top:6px;
+    }
+
+    .portfoliopic {
+        opacity:0.7;
+        height:90vh;
+        width:100vw;
+        background-size: cover;
+        z-index:1;
        
-    }
-
-    .content p h1 {
-        font-size:16    px;
-        color:#FB475E;
-    }
-
-    .content p h2 {
-        font-size: 25px;
-        line-height: 1.1;
-        margin-bottom:10px;
-        color:#827e7e;
-        
-    }
-
-    .content {
-        
     }
 }
 
 */
+
+
+
+
+
+

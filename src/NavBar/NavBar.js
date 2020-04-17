@@ -16,7 +16,7 @@ export default function NavBar() {
 
             <nav className="myNav">
                 <button className="burgerButton" onClick={() => toggleMenu()}>
-                    <img className="burger" src={mylogo} alt="hamburger" />
+                    <img className="burger" src={mylogo} alt="burger" />
                 </button>
             </nav>
             <main className="navMenu" id={menuDisplay}>

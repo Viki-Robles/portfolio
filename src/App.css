@@ -1,219 +1,186 @@
-* 
-    {
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
-    text-align: center;
-   
-   
-    
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
 }
 
 hr {
-    margin: 0;
-    padding: 0;
-    border-color: #d6d6d6;
-    border: 0;
-    border-top: 1px solid rgba(0,0,0,.1);
-    
-}
-html,body
-{
-    width: 100%;
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
-    scroll-behavior: smooth;
-    
-
-    
+  margin: 0;
+  padding: 0;
+  border-color: #d6d6d6;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-
-
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  scroll-behavior: smooth;
+}
 .footer {
-    display:grid;
-    position:absolute;
-    justify-content: space-evenly;
-    padding-top:45%;
-    color:#A56969;
-    font-size:14px;
-    padding-bottom:20%;
-    z-index:1;
-
-    
+  display: grid;
+  position: absolute;
+  justify-content: space-evenly;
+  padding-top: 45%;
+  color: #a56969;
+  font-size: 14px;
+  padding-bottom: 20%;
+  z-index: 1;
 }
 
 .footer a {
-        text-decoration: none;
-        color:#A56969;
-        font-weight:700;
-        display: inline-block;
-        border-radius: 30%;
-        box-shadow: -7px -7px 20px 0 rgba(255, 255, 255, 0.7), 
-        7px 7px 20px 0 rgba(0, 0, 0, 0.2);
-        width:60px;
-        height:60px;
-        overflow: hidden;
-        position: relative;
-        line-height: 70px;
-        margin:20px;
+  text-decoration: none;
+  color: #a56969;
+  font-weight: 700;
+  display: inline-block;
+  border-radius: 30%;
+  box-shadow: -7px -7px 20px 0 rgba(255, 255, 255, 0.7),
+    7px 7px 20px 0 rgba(0, 0, 0, 0.2);
+  width: 60px;
+  height: 60px;
+  overflow: hidden;
+  position: relative;
+  line-height: 70px;
+  margin: 20px;
 }
 
 .footer a:hover {
-    box-shadow: inset -7px -7px 20px 0 rgba(255, 255, 255, 0.7), 
-    inset 7px 7px 20px 0 rgba(0, 0, 0, 0.2)
-
+  box-shadow: inset -7px -7px 20px 0 rgba(255, 255, 255, 0.7),
+    inset 7px 7px 20px 0 rgba(0, 0, 0, 0.2);
 }
 
 .icon_footer {
-    width:30%;
-    padding-top:30%;
+  width: 30%;
+  padding-top: 30%;
 }
 
 form {
-    display: grid;
-    height:30vh;
-    margin:5%;
-    width:50vw;
-    margin-left:25%;
-    
-   
+  display: grid;
+  height: 30vh;
+  margin: 5%;
+  width: 50vw;
+  margin-left: 25%;
 }
 
 input {
-    margin:10px;
-    color:#A56969;
-    font-size:12px;
-    letter-spacing: 2px;
-
+  margin: 10px;
+  color: #a56969;
+  font-size: 12px;
+  letter-spacing: 2px;
 }
 
 .endTitle {
-    color:#A56969;
-    font-size:12px;
-    margin-bottom:50px;
+  color: #a56969;
+  font-size: 12px;
+  margin-bottom: 50px;
 }
 
 .Contact {
-    color:#a9a9a9;
-    font-size:13px;
-   
+  color: #a9a9a9;
+  font-size: 13px;
 }
 
 .myDetails {
-   margin-bottom: 30px;;
+  margin-bottom: 30px;
 }
 
 .squares {
-    display: grid;
-    justify-content: center;
-    
+  display: grid;
+  justify-content: center;
 }
 
 .square {
- width: 15px;
- height: 15px;
- background: #A56969;
- border-radius: 50%;
- margin:5px;
-
+  width: 15px;
+  height: 15px;
+  background: #a56969;
+  border-radius: 50%;
+  margin: 5px;
 }
 
-@media(min-width:600px) {
+@media (min-width: 600px) {
+  .footer {
+    position: absolute;
+    display: grid;
+    justify-content: space-evenly;
+    padding-top: 30%;
+    color: #a56969;
+    font-weight: 600;
+    z-index: 2;
+  }
 
-    .footer {
-        position:absolute;
-        display:grid;
-        justify-content: space-evenly;
-        padding-top:30%;
-        color:#A56969;
-        font-weight:600;
-        z-index:2;
-        
-        
-    }
-    
-    .footer a {
-        text-decoration: none;
-        color:#A56969;
-        font-weight:600;
-        display: inline-block;
-        border-radius: 30%;
-        box-shadow: -7px -7px 20px 0 rgba(215, 214, 214, 0.7), 
-        7px 7px 20px 0 rgba(0, 0, 0, 0.2);
-        width:80px;
-        height:80px;
-        overflow: hidden;
-        position: relative;
-        line-height: 90px;
-        letter-spacing:1px;
-        border:none; 
-        margin:20px;
-        font-family:"Roboto";
-        
-    }
+  .footer a {
+    text-decoration: none;
+    color: #a56969;
+    font-weight: 600;
+    display: inline-block;
+    border-radius: 30%;
+    box-shadow: -7px -7px 20px 0 rgba(215, 214, 214, 0.7),
+      7px 7px 20px 0 rgba(0, 0, 0, 0.2);
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+    position: relative;
+    line-height: 90px;
+    letter-spacing: 1px;
+    border: none;
+    margin: 20px;
+    font-family: "Roboto";
+  }
 
-    .footer a:hover {
-        box-shadow: inset -7px -7px 20px 0 rgba(255, 255, 255, 0.7), 
-        inset 7px 7px 20px 0 rgba(0, 0, 0, 0.2)
+  .footer a:hover {
+    box-shadow: inset -7px -7px 20px 0 rgba(255, 255, 255, 0.7),
+      inset 7px 7px 20px 0 rgba(0, 0, 0, 0.2);
+  }
 
-    }
+  .icon_footer {
+    width: 33%;
+    padding-top: 30%;
+  }
 
-    .icon_footer {
-        width:33%;
-        padding-top:30%;
-       
-    }
+  form {
+    display: grid;
+    height: 30vh;
+    margin: 5%;
+    width: 50vw;
+    margin-left: 25%;
+  }
 
-    form {
-        display: grid;
-        height:30vh;
-        margin:5%;
-        width:50vw;
-        margin-left:25%;
-        
-       
-    }
-    
-    input {
-        margin:10px;
-        color:#a9a9a9;
-        font-size:12px;
-        letter-spacing: 2px;
+  input {
+    margin: 10px;
+    color: #a9a9a9;
+    font-size: 12px;
+    letter-spacing: 2px;
+  }
 
-    }
+  .endTitle {
+    color: #a56969;
+    font-size: 12px;
+    margin-bottom: 30px;
+  }
 
-    
-    .endTitle {
-        color:#A56969;
-        font-size:12px;
-        margin-bottom:30px;
-    }
+  .Contact {
+    color: #a9a9a9;
+    font-size: 13px;
+  }
 
-    .Contact {
-        color:#a9a9a9;
-        font-size:13px;
-       
-    }
+  .myDetails {
+    margin-bottom: 30px;
+  }
 
-   .myDetails {
-       margin-bottom: 30px;;
-   }
-   
-   .squares {
-       display: grid;
-       justify-content: center;
-       
-   }
+  .squares {
+    display: grid;
+    justify-content: center;
+  }
 
-   .square {
+  .square {
     width: 15px;
     height: 15px;
-    background: #A56969;
+    background: #a56969;
     border-radius: 50%;
-    margin:5px;
-
+    margin: 5px;
   }
 }
-

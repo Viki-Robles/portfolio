@@ -1,19 +1,18 @@
-import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import './App.css';
-import NavBar from './NavBar/NavBar';
-import Gallery from './Container/Gallery';
-import ScrollToTop from './ScrollMenu/ScrollMenu';
-import Footer from './Footer/Footer';
-import minimal from './images/minimal.jpg';
-import MySkills from './Skills/MySkills';
-import AboutMe from './images/AboutMe/AboutMe';
-import CSSlogo from './images/CSSlogo.jpg';
-import HTMLlogopng from './images/HTMLlogopng.png';
-import JSlogo from './images/JSlogo.svg';
-import react from './images/react.png';
-import GetServices from './Services/getServices';
-
+import React from "react";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import "./App.css";
+import NavBar from "./NavBar/NavBar";
+import Gallery from "./Container/Gallery";
+import ScrollToTop from "./ScrollMenu/ScrollMenu";
+import Footer from "./Footer/Footer";
+import minimal from "./images/minimal.jpg";
+import Skills from "./Skills/Skills";
+import AboutMe from "./images/AboutMe/AboutMe";
+import CSSlogo from "./images/CSSlogo.jpg";
+import HTMLlogopng from "./images/HTMLlogopng.png";
+import JSlogo from "./images/JSlogo.svg";
+import react from "./images/react.png";
+import GetServices from "./Services/getServices";
 
 function App() {
   return (
@@ -31,20 +30,24 @@ function App() {
           <div className="square"></div>
           <div className="square"></div>
         </div>
-        <h3 className="portfolio_name" id="portfolio">PORTFOLIO</h3>
+        <h3 className="portfolio_name" id="portfolio">
+          PORTFOLIO
+        </h3>
         <Gallery />
         <br />
         <hr />
-        <div className="Services" id="services"><h5>What I do</h5><br />
+        <div className="Services" id="services">
+          <h5>What I do</h5>
+          <br />
           Strategy, design and a bit of magic
         </div>
-        <GetServices/>
+        <GetServices />
         <h3 className="Services">My Skills</h3>
         <div className="myskills">
-          <MySkills logo={CSSlogo} />
-          <MySkills logo={JSlogo} />
-          <MySkills logo={HTMLlogopng} />
-          <MySkills logo={react} />
+          <Skills logo={CSSlogo} />
+          <Skills logo={JSlogo} />
+          <Skills logo={HTMLlogopng} />
+          <Skills logo={react} />
         </div>
         <div className="myDetails" id="myDetails">
           <h4 className="Contact">Email: vasiliki.robles@gmail.com</h4>

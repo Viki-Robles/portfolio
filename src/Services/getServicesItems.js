@@ -1,13 +1,13 @@
 import React from 'react';
-import mobileicon from '../images/mobileicon.png';
-import nounDesign from '../images/nounDesign.svg'
-import nounMobile from '../images/nounMobile.svg'
+import penLogo from '../images/penLogo.png';
+import phoneLogo from '../images/phoneLogo.png';
+import tabletLogo from '../images/tabletLogo.png';
 
 export default function getServicesItems() {
     return[
-        {id: "Box1", BoxTitle: "Web Development", BoxIcon: nounDesign, BoxContent:""},
-        {id: "Box2", BoxTitle: "UI", BoxIcon: mobileicon, BoxContent:""},
-        {id: "Box3", BoxTitle: "Web Design", BoxIcon: nounMobile, BoxContent:""}
+        {id: "Box1", BoxTitle: "Web Development", BoxIcon:tabletLogo, BoxContent:""},
+        {id: "Box2", BoxTitle: "UI", BoxIcon: phoneLogo, BoxContent:""},
+        {id: "Box3", BoxTitle: "Web Design", BoxIcon: penLogo, BoxContent:""}
 
     ];
 }

@@ -132,71 +132,8 @@
     
 }
 
-/*
 
-@media all and (max-width: 599px) and (min-width: 475px) {
-    .hexagon {
-        position: relative;
-        width: 440px;
-        height:340px;
-        background: #D5C1C1;
-        justify-content: center;
-        align-items: center;
-        display: flex;
-        box-sizing: border-box;
-        margin-top:200px;
-        margin-bottom:30%;
-        margin-left:16px;
-        
-    
-    }
-
-    .hexagon::before,
-    .hexagon::after {
-        content: '';
-        position: absolute;
-        width:0;
-        border-left: 220px solid transparent;
-        border-right: 220px solid transparent;
-
-        
-    }
-
-    .hexagon-content {
-        justify-content: center;
-        align-items: center;
-        padding:20px;
-        font-size:15px;
-    }
-
-    .hexagon-content h1 {
-        font-size:18px;
-        color: #F9F7F7;
-    
-    }
-
-    .hexagon-content h2{
-        margin-bottom:22px;
-        color:#A56969;
-        font-size:22px;
-    }
-
-    .questionMark {
-        font-size:46px;
-        margin-top:6px;
-    }
-
-    .portfoliopic {
-        opacity:0.7;
-        height:90vh;
-        width:100vw;
-        background-size: cover;
-        z-index:1;
        
-    }
-}
-
-*/
 
 
 

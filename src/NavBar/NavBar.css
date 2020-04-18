@@ -54,7 +54,7 @@
   top: 0;
 }
 
-.menuItem a {
+.navItem a {
   font-size: 30px;
   font-weight: 600;
   text-decoration: none;
@@ -96,7 +96,7 @@
     position: relative;
   }
 
-  .menuItem a {
+  .navItem a {
     padding: 10px;
     font-size: 2vw;
     color: #a56969;
@@ -106,11 +106,11 @@
     scroll-behavior: smooth;
   }
 
-  .menuItem a:hover {
+  .navItem a:hover {
     background-color: white;
   }
 
-  .menuItem {
+  .navItem {
     padding-top: 28px;
     padding-right: 20px;
   }
@@ -147,70 +147,3 @@
     animation: type 3s steps(20);
   }
 }
-
-@media (min-width: 800px) {
-}
-
-/*
-
-#menuDisplayoff {
-    display: none;
-}
-.text {
-    z-index:2;
-    position:absolute;
-    padding-top:25%;
-    font-size: 30px;
-    font-weight: 800;
-    font-family:"Roboto";
-    color:white;
-    padding-left:10%;
-
-}
-
-
-
-// this is if i want to put the video:
-.navMenu { 
-        display: flex;
-        justify-content: flex-end;
-        flex-direction: row;
-        padding:0;
-        top:0;
-        margin:0;
-        height:0;
-       
-    }
-
-    .navMenu {
-        position: relative;
-        display: flex;
-        justify-content: flex-end;
-        flex-direction: row;
-        background:linear-gradient(to bottom,#7a19f1,#6c5ea5);
-        padding:0;
-        top:0;
-        width:100%;
-        margin:0;
-        height:75vh;
-        width:100vw;
-       
-*/
-
-/*width:21ch;
-    animation: type 3s steps(20);
-        
-
-*/
-
-/*
-@keyframes type {
-    0% {
-        width:0ch;
-    }
-    100% {
-        width:21ch;
-    }
-}
-
-*/

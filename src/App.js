@@ -43,7 +43,7 @@ function App() {
         </div>
         <GetServices />
         <h3 className="Services">My Skills</h3>
-        <div className="myskills">
+        <div className="skills">
           <Skills logo={CSSlogo} />
           <Skills logo={JSlogo} />
           <Skills logo={HTMLlogopng} />

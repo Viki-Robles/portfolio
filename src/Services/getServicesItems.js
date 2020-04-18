@@ -1,4 +1,3 @@
-import React from "react";
 import penLogo from "../images/penLogo.png";
 import phoneLogo from "../images/phoneLogo.png";
 import tabletLogo from "../images/tabletLogo.png";

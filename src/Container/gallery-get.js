@@ -1,4 +1,3 @@
-import React from "react";
 import kodflix from "../images/kodflix.png";
 import burgerProject from "../images/burgerProject.png";
 

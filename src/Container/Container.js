@@ -1,4 +1,4 @@
-import React, { Link } from "react";
+import React from "react";
 import "./Container.css";
 
 // 1. Create a container component that will hold the 2 projects

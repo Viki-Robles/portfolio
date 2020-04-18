@@ -98,7 +98,7 @@
 
   .navItem a {
     padding: 10px;
-    font-size: 2vw;
+    font-size: 1.5vw;
     color: #a56969;
     border: 1px solid #a56969;
     border-radius: 10px;
@@ -119,7 +119,7 @@
     color: #a56969;
     position: absolute;
     margin: 22px;
-    font-size: 30px;
+    font-size: 2.2vw;
     font-weight: 800;
     z-index: 2;
   }
